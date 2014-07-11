@@ -783,7 +783,7 @@ var neighborhoods = [
       { lat: 40.748135, lng: -73.967857 },
       { lat: 40.747356, lng: -73.968590 }
     ],
-    color : "CCCCFF"
+    color : "333333"
   },
   {
     name : "Manhattan Valley",
