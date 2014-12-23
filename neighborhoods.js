@@ -1,3 +1,4 @@
+// Copyright 2014 MusikAnimal
 var neighborhoods = [
   {
     name : "Financial District",
