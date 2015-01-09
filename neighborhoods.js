@@ -1,7 +1,9 @@
 // Copyright 2014 MusikAnimal
 var neighborhoods = [
+  // BREAK: MANHATTAN
   {
     name : "Financial District",
+    borough : "Manhattan",
     coords : [
        { lat : 40.7029037, lng : -74.0173751 },
        { lat : 40.7015273, lng : -74.0160331 },
@@ -93,6 +95,7 @@ var neighborhoods = [
   },
   {
     name : "Battery Park City",
+    borough : "Manhattan",
     coords : [
        { lat : 40.705107000000005, lng : -74.017128 },
        { lat : 40.705107000000005, lng : -74.016613 },
@@ -124,6 +127,7 @@ var neighborhoods = [
   },
   {
     name : "Two Bridges",
+    borough : "Manhattan",
     coords : [
        { lat : 40.707840000000004, lng : -73.9994 },
        { lat : 40.7080353, lng : -73.9990496 },
@@ -150,6 +154,7 @@ var neighborhoods = [
   },
   {
     name : "TriBeCa",
+    borough : "Manhattan",
     coords : [
        { lat : 40.714379, lng : -74.013442 },
        { lat : 40.7120545, lng : -74.0082154 },
@@ -164,6 +169,7 @@ var neighborhoods = [
   },
   {
     name : "Civic Center",
+    borough : "Manhattan",
     coords : [
        { lat : 40.7120545, lng : -74.0082154 },
        { lat : 40.711532, lng : -74.007965 },
@@ -185,6 +191,7 @@ var neighborhoods = [
   },
   {
     name : "Chinatown",
+    borough : "Manhattan",
     coords : [
        { lat : 40.71684220000001, lng : -74.0040811 },
        { lat : 40.715306, lng : -74.000863 },
@@ -211,6 +218,7 @@ var neighborhoods = [
   },
   {
     name : "Little Italy",
+    borough : "Manhattan",
     coords : [
        { lat : 40.716851, lng : -73.997773 },
        { lat : 40.719063000000006, lng : -73.9965069 },
@@ -226,6 +234,7 @@ var neighborhoods = [
   },
   {
     name : "Lower East Side",
+    borough : "Manhattan",
     coords : [
        { lat : 40.7185499, lng : -73.9735973 },
        { lat : 40.7192662, lng : -73.9772276 },
@@ -262,6 +271,7 @@ var neighborhoods = [
   },
   {
     name : "Bowery",
+    borough : "Manhattan",
     coords : [
        { lat : 40.71842800000001, lng : -73.99101 },
        { lat : 40.721631800000004, lng : -73.9893425 },
@@ -280,6 +290,7 @@ var neighborhoods = [
   },
   {
     name : "East Village",
+    borough : "Manhattan",
     coords : [
        { lat : 40.72049400000001, lng : -73.973054 },
        { lat : 40.72675490000001, lng : -73.9715517 },
@@ -301,6 +312,7 @@ var neighborhoods = [
   },
   {
     name : "Alphabet City",
+    borough : "Manhattan",
     coords : [
        { lat : 40.7308119, lng : -73.9814865 },
        { lat : 40.7226165, lng : -73.9875915 },
@@ -312,6 +324,7 @@ var neighborhoods = [
   },
   {
     name : "NoLita",
+    borough : "Manhattan",
     coords : [
        { lat : 40.725055, lng : -73.9954319 },
        { lat : 40.72347, lng : -73.996807 },
@@ -325,6 +338,7 @@ var neighborhoods = [
   },
   {
     name : "SoHo",
+    borough : "Manhattan",
     coords : [
        { lat : 40.728332, lng : -74.002966 },
        { lat : 40.721925000000006, lng : -74.005476 },
@@ -341,6 +355,7 @@ var neighborhoods = [
   },
   {
     name : "Hudson Square",
+    borough : "Manhattan",
     coords : [
        { lat : 40.7257224, lng : -74.0110655 },
        { lat : 40.721925000000006, lng : -74.005476 },
@@ -352,6 +367,7 @@ var neighborhoods = [
   },
   {
     name : "Greenwich Village",
+    borough : "Manhattan",
     coords : [
        { lat : 40.740998, lng : -74.00539 },
        { lat : 40.739454, lng : -74.006549 },
@@ -369,6 +385,7 @@ var neighborhoods = [
   },
   {
     name : "Meatpacking District",
+    borough : "Manhattan",
     coords : [
        { lat : 40.742087, lng : -74.0082 },
        { lat : 40.742494, lng : -74.008833 },
@@ -382,6 +399,7 @@ var neighborhoods = [
   },
   {
     name : "Stuyvesant Town",
+    borough : "Manhattan",
     coords : [
        { lat : 40.731282400000005, lng : -73.9826129 },
        { lat : 40.7284621, lng : -73.9757361 },
@@ -394,6 +412,7 @@ var neighborhoods = [
   },
   {
     name : "Peter Cooper Village",
+    borough : "Manhattan",
     coords : [
        { lat : 40.732722, lng : -73.974255 },
        { lat : 40.7352909, lng : -73.974788 },
@@ -405,6 +424,7 @@ var neighborhoods = [
   },
   {
     name : "Gramercy Park",
+    borough : "Manhattan",
     coords : [
        { lat : 40.7339649, lng : -73.988921 },
        { lat : 40.731282400000005, lng : -73.9826129 },
@@ -419,6 +439,7 @@ var neighborhoods = [
   },
   {
     name : "Chelsea",
+    borough : "Manhattan",
     coords : [
        { lat : 40.757075, lng : -74.00494 },
        { lat : 40.753987, lng : -74.007128 },
@@ -436,6 +457,7 @@ var neighborhoods = [
   },
   {
     name : "Flatiron District",
+    borough : "Manhattan",
     coords : [
        { lat : 40.7410876, lng : -73.9941826 },
        { lat : 40.73834740000001, lng : -73.9877238 },
@@ -449,6 +471,7 @@ var neighborhoods = [
   },
   {
     name : "NoHo",
+    borough : "Manhattan",
     coords : [
        { lat : 40.7254054, lng : -73.9967319 },
        { lat : 40.725055, lng : -73.9954319 },
@@ -461,6 +484,7 @@ var neighborhoods = [
   },
   {
     name : "Union Square",
+    borough : "Manhattan",
     coords : [
        { lat : 40.733405000000005, lng : -73.989322 },
        { lat : 40.737145, lng : -73.986576 },
@@ -472,6 +496,7 @@ var neighborhoods = [
   },
   {
     name : "Kips Bay",
+    borough : "Manhattan",
     coords : [
        { lat : 40.7395101, lng : -73.98478 },
        { lat : 40.7352909, lng : -73.974788 },
@@ -499,6 +524,7 @@ var neighborhoods = [
   },
   {
     name : "Midtown South Central",
+    borough : "Manhattan",
     coords : [
        { lat : 40.752182, lng : -73.977753 },
        { lat : 40.7549599, lng : -73.98416 },
@@ -514,6 +540,7 @@ var neighborhoods = [
   },
   {
     name : "Murray Hill",
+    borough : "Manhattan",
     coords : [
        { lat : 40.74714300000001, lng : -73.981444 },
        { lat : 40.74390799999999, lng : -73.973694 },
@@ -525,6 +552,7 @@ var neighborhoods = [
   },
   {
     name : "Garment District",
+    borough : "Manhattan",
     coords : [
        { lat : 40.756067, lng : -73.9908746 },
        { lat : 40.757319, lng : -73.989962 },
@@ -538,6 +566,7 @@ var neighborhoods = [
   },
   {
     name : "Koreatown",
+    borough : "Manhattan",
     coords : [
        { lat : 40.751175, lng : -73.986872 },
        { lat : 40.74801879999999, lng : -73.9892166 },
@@ -549,6 +578,7 @@ var neighborhoods = [
   },
   {
     name : "Hell's Kitchen",
+    borough : "Manhattan",
     coords : [
        { lat : 40.757075, lng : -74.00494 },
        { lat : 40.7534261, lng : -73.9962921 },
@@ -561,6 +591,7 @@ var neighborhoods = [
   },
   {
     name : "Theater District",
+    borough : "Manhattan",
     coords : [
        { lat : 40.756067, lng : -73.9908746 },
        { lat : 40.7536452, lng : -73.9851025 },
@@ -572,6 +603,7 @@ var neighborhoods = [
   },
   {
     name : "Clinton",
+    borough : "Manhattan",
     coords : [
        { lat : 40.757319, lng : -73.989962 },
        { lat : 40.764258999999996, lng : -73.984748 },
@@ -648,6 +680,7 @@ var neighborhoods = [
   },
   {
     name : "Midtown Center",
+    borough : "Manhattan",
     coords : [
        { lat : 40.7549599, lng : -73.98416 },
        { lat : 40.7507842, lng : -73.9744701 },
@@ -659,6 +692,7 @@ var neighborhoods = [
   },
   {
     name : "Midtown East",
+    borough : "Manhattan",
     coords : [
        { lat : 40.7507842, lng : -73.9744701 },
        { lat : 40.74798009999999, lng : -73.9678965 },
@@ -673,6 +707,7 @@ var neighborhoods = [
   },
   {
     name : "Sutton Place",
+    borough : "Manhattan",
     coords : [
        { lat : 40.75593700000001, lng : -73.964903 },
        { lat : 40.754994, lng : -73.962672 },
@@ -686,6 +721,7 @@ var neighborhoods = [
   },
   {
     name : "Upper East Side",
+    borough : "Manhattan",
     coords : [
        { lat : 40.764388999999994, lng : -73.973161 },
        { lat : 40.75835920000001, lng : -73.958774 },
@@ -708,6 +744,7 @@ var neighborhoods = [
   },
   {
     name : "Upper West Side",
+    borough : "Manhattan",
     coords : [
        { lat : 40.8004849, lng : -73.9582524 },
        { lat : 40.805949, lng : -73.970861 },
@@ -748,6 +785,7 @@ var neighborhoods = [
   },
   {
     name : "East Harlem",
+    borough : "Manhattan",
     coords : [
        { lat : 40.7880309, lng : -73.955973 },
        { lat : 40.7828159, lng : -73.943571 },
@@ -776,6 +814,7 @@ var neighborhoods = [
   },
   {
     name : "Morningside Heights",
+    borough : "Manhattan",
     coords : [
        { lat : 40.8004849, lng : -73.9582524 },
        { lat : 40.810285300000004, lng : -73.9511487 },
@@ -789,6 +828,7 @@ var neighborhoods = [
   },
   {
     name : "Harlem",
+    borough : "Manhattan",
     coords : [
        { lat : 40.803399, lng : -73.944665 },
        { lat : 40.8039431, lng : -73.94604950000002 },
@@ -822,6 +862,7 @@ var neighborhoods = [
   },
   {
     name : "Manhatanville",
+    borough : "Manhattan",
     coords : [
        { lat : 40.821498, lng : -73.958643 },
        { lat : 40.81874599999999, lng : -73.9609119 },
@@ -844,6 +885,7 @@ var neighborhoods = [
   },
   {
     name : "Hamilton Heights",
+    borough : "Manhattan",
     coords : [
        { lat : 40.8240399, lng : -73.94469000000001 },
        { lat : 40.82624800000001, lng : -73.943145 },
@@ -860,6 +902,7 @@ var neighborhoods = [
   },
   {
     name : "Washington Heights",
+    borough : "Manhattan",
     coords : [
        { lat : 40.8345649, lng : -73.9501694 },
        { lat : 40.8280221, lng : -73.9345475 },
@@ -907,6 +950,7 @@ var neighborhoods = [
   },
   {
     name : "Fort George",
+    borough : "Manhattan",
     coords : [
        { lat : 40.8471048, lng : -73.9284572 },
        { lat : 40.8507754, lng : -73.925845 },
@@ -959,6 +1003,7 @@ var neighborhoods = [
   },
   {
     name : "Inwood",
+    borough : "Manhattan",
     coords : [
        { lat : 40.858259399999994, lng : -73.9210493 },
        { lat : 40.8584178, lng : -73.9211343 },
@@ -1066,6 +1111,7 @@ var neighborhoods = [
   },
   {
     name : "Turtle Bay",
+    borough : "Manhattan",
     coords : [
        { lat : 40.74798009999999, lng : -73.9678965 },
        { lat : 40.754751, lng : -73.962003 },
@@ -1079,6 +1125,7 @@ var neighborhoods = [
   },
   {
     name : "Manhattan Valley",
+    borough : "Manhattan",
     coords : [
        { lat : 40.8004849, lng : -73.9582524 },
        { lat : 40.8041458, lng : -73.9667382 },
@@ -1093,6 +1140,7 @@ var neighborhoods = [
   },
   {
     name : "Lincoln Square",
+    borough : "Manhattan",
     coords : [
        { lat : 40.78125599999999, lng : -73.9880699 },
        { lat : 40.779956, lng : -73.988997 },
@@ -1119,6 +1167,7 @@ var neighborhoods = [
   },
   {
     name : "Lenox Hill",
+    borough : "Manhattan",
     coords : [
        { lat : 40.773229, lng : -73.9667489 },
        { lat : 40.764388999999994, lng : -73.973161 },
@@ -1132,6 +1181,7 @@ var neighborhoods = [
   },
   {
     name : "Yorkville",
+    borough : "Manhattan",
     coords : [
        { lat : 40.770207000000006, lng : -73.947351 },
        { lat : 40.774107, lng : -73.943489 },
@@ -1148,6 +1198,7 @@ var neighborhoods = [
   },
   {
     name : "Randall's Island",
+    borough : "Manhattan",
     coords : [
        { lat : 40.784376, lng : -73.936193 },
        { lat : 40.7830439, lng : -73.935163 },
@@ -1186,6 +1237,7 @@ var neighborhoods = [
   },
   {
     name : "West Village",
+    borough : "Manhattan",
     coords : [
        { lat : 40.739454, lng : -74.006549 },
        { lat : 40.739388, lng : -74.010034 },
@@ -1202,6 +1254,7 @@ var neighborhoods = [
   },
   {
     name : "NoMad",
+    borough : "Manhattan",
     coords : [
        { lat : 40.744217, lng : -73.991902 },
        { lat : 40.742827, lng : -73.988609 },
@@ -1217,6 +1270,7 @@ var neighborhoods = [
   },
   {
     name : "Tudor City",
+    borough : "Manhattan",
     coords : [
        { lat : 40.7485659, lng : -73.973116 },
        { lat : 40.747574, lng : -73.970799 },
@@ -1228,6 +1282,7 @@ var neighborhoods = [
   },
   {
     name : "Diamond District",
+    borough : "Manhattan",
     coords : [
        { lat : 40.757758, lng : -73.982066 },
        { lat : 40.756392000000005, lng : -73.978869 },
@@ -1239,6 +1294,7 @@ var neighborhoods = [
   },
   {
     name : "Roosevelt Island",
+    borough : "Manhattan",
     coords : [
        { lat : 40.750077, lng : -73.961518 },
        { lat : 40.749573, lng : -73.961658 },
@@ -1313,6 +1369,7 @@ var neighborhoods = [
   },
   {
     name : "Marble Hill",
+    borough : "Manhattan",
     coords : [
        { lat : 40.874745999999995, lng : -73.91219600000001 },
        { lat : 40.874186, lng : -73.910855 },
@@ -1334,6 +1391,7 @@ var neighborhoods = [
   },
   {
     name : "Rose Hill",
+    borough : "Manhattan",
     coords : [
        { lat : 40.740096, lng : -73.982214 },
        { lat : 40.743201, lng : -73.979961 },
@@ -1345,6 +1403,7 @@ var neighborhoods = [
   },
   {
     name : "Restaurant Row",
+    borough : "Manhattan",
     coords : [
        { lat : 40.760667000000005, lng : -73.990992 },
        { lat : 40.759464, lng : -73.98815990000001 },
@@ -1355,9 +1414,10 @@ var neighborhoods = [
     color : "FF9900"
   },
 
-  // BROOKLYN
+  // BREAK: BROOKLYN
   {
     name : "Dumbo",
+    borough : "Brooklyn",
     coords : [
       { lat: 40.703121, lng: -73.994766 },
       { lat: 40.702976, lng: -73.994896 },
@@ -1382,6 +1442,7 @@ var neighborhoods = [
   },
   {
     name : "Vinegar Hill",
+    borough : "Brooklyn",
     coords : [
       { lat: 40.704556, lng: -73.988525 },
       { lat: 40.704357, lng: -73.980843 },
@@ -1396,6 +1457,7 @@ var neighborhoods = [
   },
   {
     name : "Brooklyn Heights",
+    borough : "Brooklyn",
     coords : [
       { lat: 40.703121, lng: -73.994896 },
       { lat: 40.701904, lng: -73.992043 },
@@ -1411,6 +1473,7 @@ var neighborhoods = [
   },
   {
     name : "Fort Greene",
+    borough : "Brooklyn",
     coords : [
       { lat: 40.698112, lng: -73.980309 },
       { lat: 40.697689, lng: -73.970909 },
@@ -1427,6 +1490,7 @@ var neighborhoods = [
   },
   {
     name : "Clinton Hill",
+    borough : "Brooklyn",
     coords : [
       { lat: 40.697723, lng: -73.970909 },
       { lat: 40.697495, lng: -73.965546 },
@@ -1440,6 +1504,7 @@ var neighborhoods = [
   },
   {
     name : "Downtown Brooklyn",
+    borough : "Brooklyn",
     coords : [
       { lat: 40.703121, lng: -73.994789 },
       { lat: 40.703529, lng: -73.993950 },
@@ -1466,6 +1531,7 @@ var neighborhoods = [
   },
   {
     name : "Columbia Street Waterfront",
+    borough : "Brooklyn",
     coords : [
       { lat: 40.691734, lng: -74.000565 },
       { lat: 40.691280, lng: -73.998589 },
@@ -1480,6 +1546,7 @@ var neighborhoods = [
   },
   {
     name : "Cobble Hill",
+    borough : "Brooklyn",
     coords : [
       { lat: 40.691311, lng: -73.998550 },
       { lat: 40.689621, lng: -73.992287 },
@@ -1492,6 +1559,7 @@ var neighborhoods = [
   },
   {
     name : "Carroll Gardens",
+    borough : "Brooklyn",
     coords : [
       { lat: 40.686527, lng: -73.993874 },
       { lat: 40.684624, lng: -73.989128 },
@@ -1509,6 +1577,7 @@ var neighborhoods = [
   },
   {
     name : "Red Hook",
+    borough : "Brooklyn",
     coords : [
       { lat: 40.686367, lng: -74.007988 },
       { lat: 40.686302, lng: -74.008545 },
@@ -1555,6 +1624,7 @@ var neighborhoods = [
   },
   {
     name : "Boerum Hill",
+    borough : "Brooklyn",
     coords : [
       { lat: 40.685780, lng: -73.994087 },
       { lat: 40.689651, lng: -73.992287 },
@@ -1570,6 +1640,7 @@ var neighborhoods = [
   },
   {
     name : "Prospect Heights",
+    borough : "Brooklyn",
     coords : [
       { lat: 40.683926, lng: -73.977257 },
       { lat: 40.683632, lng: -73.975990 },
@@ -1589,6 +1660,7 @@ var neighborhoods = [
   },
   {
     name : "Gowanus",
+    borough : "Brooklyn",
     coords : [
       { lat: 40.683990, lng: -73.989540 },
       { lat: 40.680767, lng: -73.981041 },
@@ -1605,6 +1677,7 @@ var neighborhoods = [
   },
   {
     name : "Park Slope",
+    borough : "Brooklyn",
     coords : [
       { lat: 40.684990, lng: -73.978035 },
       { lat: 40.674911, lng: -73.970657 },
@@ -1625,6 +1698,7 @@ var neighborhoods = [
   },
   {
     name : "Greenwood",
+    borough : "Brooklyn",
     coords : [
       { lat: 40.668919, lng: -73.998947 },
       { lat: 40.666592, lng: -74.002701 },
@@ -1651,6 +1725,7 @@ var neighborhoods = [
   },
   {
     name : "Williamsburg",
+    borough : "Brooklyn",
     coords : [
       { lat: 40.725170, lng: -73.962051 },
       { lat: 40.722088, lng: -73.963150 },
@@ -1682,6 +1757,7 @@ var neighborhoods = [
   },
   {
     name : "Bedford - Stuyvesant",
+    borough : "Brooklyn",
     coords : [
       { lat: 40.698147, lng: -73.961609 },
       { lat: 40.700619, lng: -73.941437 },
@@ -1702,6 +1778,7 @@ var neighborhoods = [
   },
   {
     name : "Tompkins Park North",
+    borough : "Brooklyn",
     coords : [
       { lat: 40.698147, lng: -73.961685 },
       { lat: 40.699867, lng: -73.947311 },
@@ -1713,6 +1790,7 @@ var neighborhoods = [
   },
   {
     name : "Crown Heights",
+    borough : "Brooklyn",
     coords : [
       { lat: 40.680866, lng: -73.964134 },
       { lat: 40.663258, lng: -73.960785 },
@@ -1728,6 +1806,7 @@ var neighborhoods = [
   },
   {
     name : "Bushwick",
+    borough : "Brooklyn",
     coords : [
       { lat: 40.700619, lng: -73.941475 },
       { lat: 40.679401, lng: -73.905167 },
@@ -1754,6 +1833,7 @@ var neighborhoods = [
   },
   {
     name : "Bay Ridge",
+    borough : "Brooklyn",
     coords : [
       { lat: 40.643852, lng: -74.031044 },
       { lat: 40.645153, lng: -74.033707 },
@@ -1779,6 +1859,7 @@ var neighborhoods = [
   },
   {
     name : "Sunset Park",
+    borough : "Brooklyn",
     coords : [
       { lat: 40.645985, lng: -73.995064 },
       { lat: 40.631393, lng: -74.010353 },
@@ -1793,6 +1874,7 @@ var neighborhoods = [
   },
   {
     name : "Bensonhurst",
+    borough : "Brooklyn",
     coords : [
       { lat: 40.612713, lng: -74.011543 },
       { lat: 40.601952, lng: -73.993736 },
@@ -1805,6 +1887,7 @@ var neighborhoods = [
   },
   {
     name : "Dyker Heights",
+    borough : "Brooklyn",
     coords : [
       { lat: 40.606655, lng: -74.015495 },
       { lat: 40.607468, lng: -74.016998 },
@@ -1830,6 +1913,7 @@ var neighborhoods = [
   },
   {
     name : "Borough Park",
+    borough : "Brooklyn",
     coords : [
       { lat: 40.647068, lng: -73.993904 },
       { lat: 40.644146, lng: -73.989082 },
@@ -1846,6 +1930,7 @@ var neighborhoods = [
   },
   {
     name : "Mapleton",
+    borough : "Brooklyn",
     coords : [
       { lat: 40.630615, lng: -73.976997 },
       { lat: 40.629391, lng: -73.979721 },
@@ -1857,6 +1942,7 @@ var neighborhoods = [
   },
   {
     name : "Bath Beach",
+    borough : "Brooklyn",
     coords : [
       { lat: 40.612659, lng: -74.011543 },
       { lat: 40.601952, lng: -73.993729 },
@@ -1879,6 +1965,7 @@ var neighborhoods = [
   },
   {
     name : "Windsor Terrace",
+    borough : "Brooklyn",
     coords : [
       { lat: 40.656635, lng: -73.984032 },
       { lat: 40.660522, lng: -73.980003 },
@@ -1906,6 +1993,7 @@ var neighborhoods = [
   },
   {
     name : "Gravesend",
+    borough : "Brooklyn",
     coords : [
       { lat: 40.593884, lng: -74.002060 },
       { lat: 40.591797, lng: -74.000984 },
@@ -1956,6 +2044,7 @@ var neighborhoods = [
   },
   {
     name : "Kensington & Parkville",
+    borough : "Brooklyn",
     coords : [
       { lat: 40.647255, lng: -73.980217 },
       { lat: 40.647778, lng: -73.975243 },
@@ -1970,6 +2059,7 @@ var neighborhoods = [
   },
   {
     name : "Flatbush",
+    borough : "Brooklyn",
     coords : [
       { lat: 40.646309, lng: -73.970711 },
       { lat: 40.650719, lng: -73.971939 },
@@ -2001,6 +2091,7 @@ var neighborhoods = [
   },
   {
     name : "Midwood",
+    borough : "Brooklyn",
     coords : [
       { lat: 40.627586, lng: -73.976440 },
       { lat: 40.632305, lng: -73.966675 },
@@ -2016,6 +2107,7 @@ var neighborhoods = [
   },
   {
     name : "Sheepshead Bay",
+    borough : "Brooklyn",
     coords : [
       { lat: 40.609425, lng: -73.967514 },
       { lat: 40.612030, lng: -73.944031 },
@@ -2086,6 +2178,7 @@ var neighborhoods = [
   },
   {
     name : "Prospect Lefferts Gardens",
+    borough : "Brooklyn",
     coords : [
       { lat: 40.642860, lng: -73.954361 },
       { lat: 40.644943, lng: -73.954597 },
@@ -2113,6 +2206,7 @@ var neighborhoods = [
   },
   {
     name : "East Flatbush",
+    borough : "Brooklyn",
     coords : [
       { lat: 40.630745, lng: -73.945282 },
       { lat: 40.631786, lng: -73.938164 },
@@ -2137,6 +2231,7 @@ var neighborhoods = [
   },
   {
     name : "Brownsville",
+    borough : "Brooklyn",
     coords : [
       { lat: 40.665859, lng: -73.925522 },
       { lat: 40.666073, lng: -73.925713 },
@@ -2158,6 +2253,7 @@ var neighborhoods = [
   },
   {
     name : "Cypress Hills",
+    borough : "Brooklyn",
     coords : [
       { lat: 40.691833, lng: -73.901680 },
       { lat: 40.688251, lng: -73.900520 },
@@ -2205,6 +2301,7 @@ var neighborhoods = [
   },
   {
     name : "East New York",
+    borough : "Brooklyn",
     coords : [
       { lat: 40.675755, lng: -73.904022 },
       { lat: 40.675350, lng: -73.899254 },
@@ -2272,6 +2369,7 @@ var neighborhoods = [
   },
   {
     name : "Greenpoint",
+    borough : "Brooklyn",
     coords : [
       { lat: 40.718365, lng: -73.966141 },
       { lat: 40.722103, lng: -73.963158 },
@@ -2336,6 +2434,7 @@ var neighborhoods = [
   },
   {
     name : "East Williamsburg",
+    borough : "Brooklyn",
     coords : [
       { lat: 40.714737, lng: -73.941681 },
       { lat: 40.714378, lng: -73.932541 },
@@ -2355,6 +2454,7 @@ var neighborhoods = [
   },
   {
     name : "Canarsie",
+    borough : "Brooklyn",
     coords : [
       { lat: 40.656487, lng: -73.900177 },
       { lat: 40.656841, lng: -73.898682 },
@@ -2377,6 +2477,7 @@ var neighborhoods = [
   },
   {
     name : "Flatlands",
+    borough : "Brooklyn",
     coords : [
       { lat: 40.630436, lng: -73.947433 },
       { lat: 40.630695, lng: -73.945328 },
@@ -2397,6 +2498,7 @@ var neighborhoods = [
   },
   {
     name : "Marine Park",
+    borough : "Brooklyn",
     coords : [
       { lat: 40.617210, lng: -73.944984 },
       { lat: 40.617729, lng: -73.940735 },
@@ -2414,6 +2516,7 @@ var neighborhoods = [
   },
   {
     name : "Bergen Beach",
+    borough : "Brooklyn",
     coords : [
       { lat: 40.619427, lng: -73.917305 },
       { lat: 40.632030, lng: -73.918678 },
@@ -2502,6 +2605,7 @@ var neighborhoods = [
   },
   {
     name : "Mill Basin",
+    borough : "Brooklyn",
     coords : [
       { lat: 40.619408, lng: -73.917305 },
       { lat: 40.619736, lng: -73.912926 },
@@ -2548,6 +2652,7 @@ var neighborhoods = [
   },
   {
     name : "Sea Gate",
+    borough : "Brooklyn",
     coords : [
       { lat: 40.581303, lng: -74.004082 },
       { lat: 40.571426, lng: -74.002357 },
@@ -2566,6 +2671,7 @@ var neighborhoods = [
   },
   {
     name : "Coney Island",
+    borough : "Brooklyn",
     coords : [
       { lat: 40.581333, lng: -74.003990 },
       { lat: 40.571362, lng: -74.002319 },
@@ -2600,6 +2706,7 @@ var neighborhoods = [
   },
   {
     name : "Brighton Beach",
+    borough : "Brooklyn",
     coords : [
       { lat: 40.574345, lng: -73.953354 },
       { lat: 40.579281, lng: -73.954338 },
@@ -2627,6 +2734,7 @@ var neighborhoods = [
   },
   {
     name : "Manhattan Beach",
+    borough : "Brooklyn",
     coords : [
       { lat: 40.582722, lng: -73.955887 },
       { lat: 40.582996, lng: -73.953484 },
@@ -2653,6 +2761,7 @@ var neighborhoods = [
   },
   {
     name : "Gerritsen Beach",
+    borough : "Brooklyn",
     coords : [
       { lat: 40.601704, lng: -73.934853 },
       { lat: 40.602745, lng: -73.933311 },
@@ -2686,6 +2795,7 @@ var neighborhoods = [
   },
   {
     name : "Ditmas Park",
+    borough : "Brooklyn",
     coords : [
       { lat: 40.632389, lng: -73.966591 },
       { lat: 40.636379, lng: -73.958328 },
@@ -2697,6 +2807,7 @@ var neighborhoods = [
   },
   {
     name : "Prospect Park South",
+    borough : "Brooklyn",
     coords : [
       { lat: 40.649323, lng: -73.963333 },
       { lat: 40.645775, lng: -73.964447 },
@@ -2710,9 +2821,10 @@ var neighborhoods = [
     color : "666666"
   },
 
-  // QUEENS
+  // BREAK: QUEENS
   {
     name : "Astoria",
+    borough : "Queens",
     color : "FF0000",
     coords : [
       { lat : 40.78264, lng : -73.91987 },
@@ -2820,6 +2932,7 @@ var neighborhoods = [
   },
   {
     name : "Hunter's Point",
+    borough : "Queens",
     color : "66CCFF",
     coords : [
       { lat : 40.753792, lng : -73.952114 },
@@ -2880,6 +2993,7 @@ var neighborhoods = [
   },
   {
     name : "Blissville",
+    borough : "Queens",
     color : "006600",
     coords : [
       { lat : 40.738023, lng : -73.944794 },
@@ -2904,6 +3018,7 @@ var neighborhoods = [
   },
   {
     name : "Sunnyside",
+    borough : "Queens",
     color : "999999",
     coords : [
       { lat: 40.748932, lng: -73.937347 },
@@ -2948,6 +3063,7 @@ var neighborhoods = [
   },
   {
     name : "Sunnyside Park",
+    borough : "Queens",
     color : "6666FF",
     coords : [
       { lat : 40.74693, lng : -73.92082 },
@@ -2990,6 +3106,7 @@ var neighborhoods = [
   },
   {
     name : "Woodside",
+    borough : "Queens",
     color : "009900",
     coords : [
       { lat : 40.76648, lng : -73.90301000000001 },
@@ -3034,6 +3151,7 @@ var neighborhoods = [
   },
   {
     name : "Maspeth",
+    borough : "Queens",
     color : "003366",
     coords : [
       { lat : 40.72787000000001, lng : -73.92867 },
@@ -3154,6 +3272,7 @@ var neighborhoods = [
   },
   {
     name : "Ditmars",
+    borough : "Queens",
     color : "0066FF",
     coords : [
       { lat : 40.778559, lng : -73.925507 },
@@ -3218,6 +3337,7 @@ var neighborhoods = [
   },
   {
     name : "Astoria Heights",
+    borough : "Queens",
     color : "006666",
     coords : [
       { lat : 40.7659, lng : -73.8931 },
@@ -3232,6 +3352,7 @@ var neighborhoods = [
   },
   {
     name : "Steinway",
+    borough : "Queens",
     color : "003300",
     coords : [
       { lat : 40.77023, lng : -73.91641 },
@@ -3290,6 +3411,7 @@ var neighborhoods = [
   },
   {
     name : "Jackson Heights",
+    borough : "Queens",
     color : "33FFFF",
     coords : [
       { lat : 40.7659, lng : -73.8931 },
@@ -3322,6 +3444,7 @@ var neighborhoods = [
   },
   {
     name : "Ridgewood",
+    borough : "Queens",
     color : "333366",
     coords : [
       { lat : 40.70942999999999, lng : -73.92190000000001 },
@@ -3391,6 +3514,7 @@ var neighborhoods = [
   },
   {
     name : "Glendale",
+    borough : "Queens",
     color : "FF0000",
     coords : [
       { lat : 40.6918, lng : -73.90164 },
@@ -3465,6 +3589,7 @@ var neighborhoods = [
   },
   {
     name : "Middle Village",
+    borough : "Queens",
     color : "0099FF",
     coords : [
       { lat : 40.71486000000001, lng : -73.88713 },
@@ -3505,6 +3630,7 @@ var neighborhoods = [
   },
   {
     name : "Elmhurst",
+    borough : "Queens",
     color : "CC33CC",
     coords : [
       { lat : 40.727568, lng : -73.886837 },
@@ -3543,6 +3669,7 @@ var neighborhoods = [
   },
   {
     name : "Rego Park",
+    borough : "Queens",
     color : "006600",
     coords : [
       { lat : 40.72934, lng : -73.871433 },
@@ -3589,6 +3716,7 @@ var neighborhoods = [
   },
   {
     name : "Forest Hills",
+    borough : "Queens",
     color : "000099",
     coords : [
       { lat : 40.711809, lng : -73.859546 },
@@ -3655,6 +3783,7 @@ var neighborhoods = [
   },
   {
     name : "Corona",
+    borough : "Queens",
     color : "333333",
     coords : [
       { lat : 40.74768, lng : -73.868533 },
@@ -3675,6 +3804,7 @@ var neighborhoods = [
   },
   {
     name : "East Elmhurst",
+    borough : "Queens",
     color : "FF0000",
     coords : [
       { lat : 40.77385, lng : -73.89287 },
@@ -3756,6 +3886,7 @@ var neighborhoods = [
   },
   {
     name : "North Corona",
+    borough : "Queens",
     color : "0099FF",
     coords : [
       { lat : 40.756781999999994, lng : -73.873665 },
@@ -3773,6 +3904,7 @@ var neighborhoods = [
   },
   {
     name : "Willets Point",
+    borough : "Queens",
     color : "00CC33",
     coords : [
       { lat : 40.764795, lng : -73.842394 },
@@ -3806,6 +3938,7 @@ var neighborhoods = [
   },
   {
     name : "College Point",
+    borough : "Queens",
     color : "CCCC00",
     coords : [
       { lat : 40.77546523765736, lng : -73.84880048603225 },
@@ -4153,6 +4286,7 @@ var neighborhoods = [
   },
   {
     name : "Malba",
+    borough : "Queens",
     color : "3399CC",
     coords : [
       { lat : 40.78462, lng : -73.83063 },
@@ -4199,6 +4333,7 @@ var neighborhoods = [
   },
   {
     name : "Flushing",
+    borough : "Queens",
     color : "663366",
     coords : [
       { lat : 40.78167, lng : -73.83869 },
@@ -4258,6 +4393,7 @@ var neighborhoods = [
   },
   {
     name : "Whitestone",
+    borough : "Queens",
     color : "00CC33",
     coords : [
       { lat : 40.788160999999995, lng : -73.831304 },
@@ -4369,6 +4505,7 @@ var neighborhoods = [
   },
   {
     name : "Kew Gardens",
+    borough : "Queens",
     color : "CCCC66",
     coords : [
       { lat : 40.711906, lng : -73.836071 },
@@ -4401,6 +4538,7 @@ var neighborhoods = [
   },
   {
     name : "Beechhurst",
+    borough : "Queens",
     color : "336699",
     coords : [
       { lat : 40.785936, lng : -73.79974 },
@@ -4442,6 +4580,7 @@ var neighborhoods = [
   },
   {
     name : "Bayside",
+    borough : "Queens",
     color : "CCCCCC",
     coords : [
       { lat : 40.7670758906685, lng : -73.79033837907538 },
@@ -4584,6 +4723,7 @@ var neighborhoods = [
   },
   {
     name : "Bay Terrace",
+    borough : "Queens",
     color : "FF6633",
     coords : [
       { lat : 40.788259, lng : -73.790556 },
@@ -4637,6 +4777,7 @@ var neighborhoods = [
   },
   {
     name : "Murray Hill",
+    borough : "Queens",
     color : "CC6666",
     coords : [
       { lat : 40.76461, lng : -73.82351 },
@@ -4668,6 +4809,7 @@ var neighborhoods = [
   },
   {
     name : "Auburndale",
+    borough : "Queens",
     color : "336699",
     coords : [
       { lat : 40.772644, lng : -73.795216 },
@@ -4704,6 +4846,7 @@ var neighborhoods = [
   },
   {
     name : "Queensboro Hill",
+    borough : "Queens",
     color : "FFCC33",
     coords : [
       { lat : 40.739974000000004, lng : -73.797276 },
@@ -4770,6 +4913,7 @@ var neighborhoods = [
   },
   {
     name : "Fresh Meadows",
+    borough : "Queens",
     color : "663366",
     coords : [
       { lat : 40.740331, lng : -73.788478 },
@@ -4791,6 +4935,7 @@ var neighborhoods = [
   },
   {
     name : "Utopia",
+    borough : "Queens",
     color : "33FFFF",
     coords : [
       { lat : 40.738283, lng : -73.79616 },
@@ -4812,6 +4957,7 @@ var neighborhoods = [
   },
   {
     name : "Pomonok",
+    borough : "Queens",
     color : "6666FF",
     coords : [
       { lat : 40.73912, lng : -73.815958 },
@@ -4833,6 +4979,7 @@ var neighborhoods = [
   },
   {
     name : "Hillcrest",
+    borough : "Queens",
     color : "FF0000",
     coords : [
       { lat : 40.729275, lng : -73.802511 },
@@ -4859,6 +5006,7 @@ var neighborhoods = [
   },
   {
     name : "Briarwood",
+    borough : "Queens",
     color : "0099FF",
     coords : [
       { lat : 40.715891000000006, lng : -73.817829 },
@@ -4887,6 +5035,7 @@ var neighborhoods = [
   },
   {
     name : "Jamaica Hills",
+    borough : "Queens",
     color : "999999",
     coords : [
       { lat : 40.715842, lng : -73.807833 },
@@ -4917,6 +5066,7 @@ var neighborhoods = [
   },
   {
     name : "Jamaica Estates",
+    borough : "Queens",
     color : "006600",
     coords : [
       { lat : 40.723649, lng : -73.79040900000001 },
@@ -4959,6 +5109,7 @@ var neighborhoods = [
   },
   {
     name : "Jamaica",
+    borough : "Queens",
     color : "660000",
     coords : [
       { lat : 40.698177, lng : -73.814313 },
@@ -4994,6 +5145,7 @@ var neighborhoods = [
   },
   {
     name : "Richmond Hill",
+    borough : "Queens",
     color : "0000CC",
     coords : [
       { lat : 40.697469999999996, lng : -73.8489 },
@@ -5036,6 +5188,7 @@ var neighborhoods = [
   },
   {
     name : "South Ozone Park",
+    borough : "Queens",
     color : "33CCFF",
     coords : [
       { lat : 40.69189, lng : -73.8107 },
@@ -5085,6 +5238,7 @@ var neighborhoods = [
   },
   {
     name : "Ozone Park",
+    borough : "Queens",
     color : "CC6666",
     coords : [
       { lat : 40.688188, lng : -73.848817 },
@@ -5113,6 +5267,7 @@ var neighborhoods = [
   },
   {
     name : "Woodhaven",
+    borough : "Queens",
     color : "CC33CC",
     coords : [
       { lat : 40.694114, lng : -73.868187 },
@@ -5143,6 +5298,7 @@ var neighborhoods = [
   },
   {
     name : "Lindenwood",
+    borough : "Queens",
     color : "666633",
     coords : [
       { lat : 40.67403099999999, lng : -73.861048 },
@@ -5167,6 +5323,7 @@ var neighborhoods = [
   },
   {
     name : "Howard Beach",
+    borough : "Queens",
     color : "009900",
     coords : [
       { lat : 40.66273, lng : -73.84913 },
@@ -5267,6 +5424,7 @@ var neighborhoods = [
   },
   {
     name : "Hamilton Beach",
+    borough : "Queens",
     color : "0066CC",
     coords : [
       { lat : 40.654027, lng : -73.832034 },
@@ -5290,6 +5448,7 @@ var neighborhoods = [
   },
   {
     name : "Hollis",
+    borough : "Queens",
     color : "333333",
     coords : [
       { lat : 40.710866, lng : -73.770711 },
@@ -5317,6 +5476,7 @@ var neighborhoods = [
   },
   {
     name : "South Jamaica",
+    borough : "Queens",
     color : "999999",
     coords : [
       { lat : 40.674380000000006, lng : -73.80169 },
@@ -5342,6 +5502,7 @@ var neighborhoods = [
   },
   {
     name : "St. Albans",
+    borough : "Queens",
     color : "006666",
     coords : [
       { lat : 40.688383, lng : -73.776762 },
@@ -5385,6 +5546,7 @@ var neighborhoods = [
   },
   {
     name : "Laurelton",
+    borough : "Queens",
     color : "993399",
     coords : [
       { lat : 40.665763, lng : -73.74655 },
@@ -5411,6 +5573,7 @@ var neighborhoods = [
   },
   {
     name : "Springfield Gardens",
+    borough : "Queens",
     color : "00CC33",
     coords : [
       { lat : 40.666414, lng : -73.789293 },
@@ -5434,6 +5597,7 @@ var neighborhoods = [
   },
   {
     name : "Rochdale",
+    borough : "Queens",
     color : "FFCC33",
     coords : [
       { lat : 40.679629, lng : -73.777148 },
@@ -5458,6 +5622,7 @@ var neighborhoods = [
   },
   {
     name : "Oakland Gardens",
+    borough : "Queens",
     color : "FFCC33",
     coords : [
       { lat : 40.745956, lng : -73.767799 },
@@ -5493,6 +5658,7 @@ var neighborhoods = [
   },
   {
     name : "Hollis Hills",
+    borough : "Queens",
     color : "003399",
     coords : [
       { lat : 40.73548600000001, lng : -73.762564 },
@@ -5514,6 +5680,7 @@ var neighborhoods = [
   },
   {
     name : "Queens Village",
+    borough : "Queens",
     color : "0099FF",
     coords : [
       { lat : 40.713826, lng : -73.754017 },
@@ -5546,6 +5713,7 @@ var neighborhoods = [
   },
   {
     name : "Cambria Heights",
+    borough : "Queens",
     color : "00CC33",
     coords : [
       { lat : 40.693134, lng : -73.744833 },
@@ -5567,6 +5735,7 @@ var neighborhoods = [
   },
   {
     name : "Brookville",
+    borough : "Queens",
     color : "999999",
     coords : [
       { lat : 40.665926000000006, lng : -73.757965 },
@@ -5592,6 +5761,7 @@ var neighborhoods = [
   },
   {
     name : "Rosedale",
+    borough : "Queens",
     color : "FFFF33",
     coords : [
       { lat : 40.679889, lng : -73.728911 },
@@ -5661,6 +5831,7 @@ var neighborhoods = [
   },
   {
     name : "Little Neck",
+    borough : "Queens",
     color : "6666FF",
     coords : [
       { lat : 40.76375, lng : -73.75002 },
@@ -5732,6 +5903,7 @@ var neighborhoods = [
   },
   {
     name : "Glen Oaks",
+    borough : "Queens",
     color : "CCCC00",
     coords : [
       { lat : 40.759383, lng : -73.71749600000001 },
@@ -5753,6 +5925,7 @@ var neighborhoods = [
   },
   {
     name : "Bellerose",
+    borough : "Queens",
     color : "993399",
     coords : [
       { lat : 40.731617, lng : -73.746678 },
@@ -5783,6 +5956,7 @@ var neighborhoods = [
   },
   {
     name : "Floral Park",
+    borough : "Queens",
     color : "009900",
     coords : [
       { lat : 40.727194, lng : -73.710501 },
@@ -5798,6 +5972,7 @@ var neighborhoods = [
   },
   {
     name : "Broad Channel",
+    borough : "Queens",
     color : "0000FF",
     coords : [
       { lat : 40.6137244, lng : -73.8216019 },
@@ -5887,6 +6062,7 @@ var neighborhoods = [
   },
   {
     name : "Far Rockaway",
+    borough : "Queens",
     color : "DB4436",
     coords : [
       { lat : 40.610466499999994, lng : -73.7545681 },
@@ -5997,6 +6173,7 @@ var neighborhoods = [
   },
   {
     name : "Polygon 66",
+    borough : "Queens",
     color : "0BA9CC",
     coords : [
       { lat : 40.5994538, lng : -73.7665844 },
@@ -6086,6 +6263,7 @@ var neighborhoods = [
   },
   {
     name : "Edgemere",
+    borough : "Queens",
     color : "B29189",
     coords : [
       { lat : 40.5878201, lng : -73.7885785 },
@@ -6228,6 +6406,7 @@ var neighborhoods = [
   },
   {
     name : "Arverne",
+    borough : "Queens",
     color : "A7B5D7",
     coords : [
       { lat : 40.5855917, lng : -73.8003803 },
@@ -6307,6 +6486,7 @@ var neighborhoods = [
   },
   {
     name : "Hammels",
+    borough : "Queens",
     color : "62AF44",
     coords : [
       { lat : 40.5879831, lng : -73.81915570000001 },
@@ -6384,6 +6564,7 @@ var neighborhoods = [
   },
   {
     name : "Seaside",
+    borough : "Queens",
     color : "F8971B",
     coords : [
       { lat : 40.5875431, lng : -73.822825 },
@@ -6414,6 +6595,7 @@ var neighborhoods = [
   },
   {
     name : "Belle Harbor",
+    borough : "Queens",
     color : "0BA9CC",
     coords : [
       { lat : 40.582198, lng : -73.8485312 },
@@ -6430,6 +6612,7 @@ var neighborhoods = [
   },
   {
     name : "Belle Harbor",
+    borough : "Queens",
     color : "777777",
     coords : [
       { lat : 40.5815951, lng : -73.8451838 },
@@ -6450,6 +6633,7 @@ var neighborhoods = [
   },
   {
     name : "Neponsit",
+    borough : "Queens",
     color : "D698AD",
     coords : [
       { lat : 40.5673666, lng : -73.8624787 },
@@ -6469,6 +6653,7 @@ var neighborhoods = [
   },
   {
     name : "Roxbury",
+    borough : "Queens",
     color : "009D57",
     coords : [
       { lat : 40.5675948, lng : -73.8827133 },
@@ -6502,6 +6687,7 @@ var neighborhoods = [
   },
   {
     name : "Breezy Point",
+    borough : "Queens",
     color : "3F5BA9",
     coords : [
       { lat : 40.5650682, lng : -73.9113808 },
@@ -6534,9 +6720,10 @@ var neighborhoods = [
     ]
   },
 
-  // THE BRONX
+  // BREAK: THE BRONX
   {
     name : "Port Morris",
+    borough : "Bronx",
     coords : [
       { lat: 40.8094243, lng: -73.9029694 },
       { lat: 40.8071424, lng: -73.9062524 },
@@ -6631,6 +6818,7 @@ var neighborhoods = [
   },
   {
     name : "Mott Haven",
+    borough : "Bronx",
     coords : [
       { lat: 40.8094243, lng: -73.9029694 },
       { lat: 40.811292, lng: -73.9033341 },
@@ -6739,6 +6927,7 @@ var neighborhoods = [
   },
   {
     name : "Melrose",
+    borough : "Bronx",
     coords : [
       { lat: 40.81229080000001, lng: -73.9044499 },
       { lat: 40.820467300000004, lng: -73.90125270000001 },
@@ -6759,6 +6948,7 @@ var neighborhoods = [
   },
   {
     name : "Highbridge",
+    borough : "Bronx",
     coords : [
       { lat: 40.8281638, lng: -73.933053 },
       { lat: 40.8284398, lng: -73.9304566 },
@@ -6792,6 +6982,7 @@ var neighborhoods = [
   },
   {
     name : "Hunts Point",
+    borough : "Bronx",
     coords : [
       { lat: 40.8133221, lng: -73.8717486 },
       { lat: 40.8140528, lng: -73.8729502 },
@@ -6883,6 +7074,7 @@ var neighborhoods = [
   },
   {
     name : "Longwood",
+    borough : "Bronx",
     coords : [
       { lat: 40.82676750000001, lng: -73.8879061 },
       { lat: 40.8268486, lng: -73.8928199 },
@@ -6914,6 +7106,7 @@ var neighborhoods = [
   },
   {
     name : "Morrisania",
+    borough : "Bronx",
     coords : [
       { lat: 40.8446093, lng: -73.9027333 },
       { lat: 40.8397069, lng: -73.9053726 },
@@ -6938,6 +7131,7 @@ var neighborhoods = [
   },
   {
     name : "Foxhurst",
+    borough : "Bronx",
     coords : [
       { lat: 40.8354373, lng: -73.8951373 },
       { lat: 40.8349665, lng: -73.8956308 },
@@ -6962,6 +7156,7 @@ var neighborhoods = [
   },
   {
     name : "Crotona Park",
+    borough : "Bronx",
     coords : [
       { lat: 40.8393011, lng: -73.8865972 },
       { lat: 40.838181, lng: -73.8872194 },
@@ -7007,6 +7202,7 @@ var neighborhoods = [
   },
   {
     name : "Morris Heights",
+    borough : "Bronx",
     coords : [
       { lat: 40.8561496, lng: -73.9177966 },
       { lat: 40.857878, lng: -73.9170992 },
@@ -7064,6 +7260,7 @@ var neighborhoods = [
   },
   {
     name : "University Heights",
+    borough : "Bronx",
     coords : [
       { lat: 40.8590221, lng: -73.9171529 },
       { lat: 40.8588193, lng: -73.9175498 },
@@ -7108,6 +7305,7 @@ var neighborhoods = [
   },
   {
     name : "Mount Hope",
+    borough : "Bronx",
     coords : [
       { lat: 40.8524004, lng: -73.9036345 },
       { lat: 40.8538936, lng: -73.9073253 },
@@ -7125,6 +7323,7 @@ var neighborhoods = [
   },
   {
     name : "Tremont",
+    borough : "Bronx",
     coords : [
       { lat: 40.8562794, lng: -73.895545 },
       { lat: 40.84921919999999, lng: -73.9000726 },
@@ -7148,6 +7347,7 @@ var neighborhoods = [
   },
   {
     name : "Fordham Heights",
+    borough : "Bronx",
     coords : [
       { lat: 40.862494999999996, lng: -73.8968754 },
       { lat: 40.8621867, lng: -73.8994288 },
@@ -7172,6 +7372,7 @@ var neighborhoods = [
   },
   {
     name : "West Farms",
+    borough : "Bronx",
     coords : [
       { lat: 40.8483264, lng: -73.8831639 },
       { lat: 40.85110199999999, lng: -73.8822842 },
@@ -7197,6 +7398,7 @@ var neighborhoods = [
   },
   {
     name : "Belmont",
+    borough : "Bronx",
     coords : [
       { lat: 40.8600608, lng: -73.8911247 },
       { lat: 40.85757770000001, lng: -73.8911033 },
@@ -7219,6 +7421,7 @@ var neighborhoods = [
   },
   {
     name : "West Concourse",
+    borough : "Bronx",
     coords : [
       { lat: 40.8200694, lng: -73.9321518 },
       { lat: 40.8198015, lng: -73.9323556 },
@@ -7271,6 +7474,7 @@ var neighborhoods = [
   },
   {
     name : "Concourse Village",
+    borough : "Bronx",
     coords : [
       { lat: 40.8451612, lng: -73.9110053 },
       { lat: 40.844666100000005, lng: -73.91137 },
@@ -7297,6 +7501,7 @@ var neighborhoods = [
   },
   {
     name : "Kingsbridge Heights",
+    borough : "Bronx",
     coords : [
       { lat: 40.8630792, lng: -73.9127326 },
       { lat: 40.8622354, lng: -73.9105654 },
@@ -7339,6 +7544,7 @@ var neighborhoods = [
   },
   {
     name : "Bedford Park",
+    borough : "Bronx",
     coords : [
       { lat: 40.8829068, lng: -73.8866186 },
       { lat: 40.8829879, lng: -73.8879061 },
@@ -7364,6 +7570,7 @@ var neighborhoods = [
   },
   {
     name : "Fordham North",
+    borough : "Bronx",
     coords : [
       { lat: 40.8654485, lng: -73.8867903 },
       { lat: 40.8659515, lng: -73.8859105 },
@@ -7384,6 +7591,7 @@ var neighborhoods = [
   },
   {
     name : "Norwood",
+    borough : "Bronx",
     coords : [
       { lat: 40.8871408, lng: -73.8780141 },
       { lat: 40.8827283, lng: -73.8812542 },
@@ -7409,6 +7617,7 @@ var neighborhoods = [
   },
   {
     name : "Kingsbridge",
+    borough : "Bronx",
     coords : [
       { lat: 40.8735292, lng: -73.9071536 },
       { lat: 40.87330200000001, lng: -73.9060378 },
@@ -7444,6 +7653,7 @@ var neighborhoods = [
   },
   {
     name : "Spuyten Duyvil",
+    borough : "Bronx",
     coords : [
       { lat: 40.8862324, lng: -73.9211011 },
       { lat: 40.88092749999999, lng: -73.9235044 },
@@ -7478,6 +7688,7 @@ var neighborhoods = [
   },
   {
     name : "Riverdale",
+    borough : "Bronx",
     coords : [
       { lat: 40.889055, lng: -73.9080548 },
       { lat: 40.889931, lng: -73.908248 },
@@ -7519,6 +7730,7 @@ var neighborhoods = [
   },
   {
     name : "Fieldston",
+    borough : "Bronx",
     coords : [
       { lat: 40.9012363, lng: -73.9028192 },
       { lat: 40.900993, lng: -73.9045894 },
@@ -7559,6 +7771,7 @@ var neighborhoods = [
   },
   {
     name : "North Riverdale",
+    borough : "Bronx",
     coords : [
       { lat: 40.9113397, lng: -73.8966179 },
       { lat: 40.9154584, lng: -73.91039370000001 },
@@ -7588,6 +7801,7 @@ var neighborhoods = [
   },
   {
     name : "Soundview",
+    borough : "Bronx",
     coords : [
       { lat: 40.8301933, lng: -73.8840437 },
       { lat: 40.82986859999999, lng: -73.8837862 },
@@ -7628,6 +7842,7 @@ var neighborhoods = [
   },
   {
     name : "Clason Point",
+    borough : "Bronx",
     coords : [
       { lat: 40.8189571, lng: -73.8814259 },
       { lat: 40.8171221, lng: -73.8786364 },
@@ -7675,6 +7890,7 @@ var neighborhoods = [
   },
   {
     name : "Parkchester",
+    borough : "Bronx",
     coords : [
       { lat: 40.841103, lng: -73.8645172 },
       { lat: 40.8399991, lng: -73.8639164 },
@@ -7695,6 +7911,7 @@ var neighborhoods = [
   },
   {
     name : "Van Nest",
+    borough : "Bronx",
     coords : [
       { lat: 40.8520352, lng: -73.8686264 },
       { lat: 40.8518891, lng: -73.86864780000002 },
@@ -7732,6 +7949,7 @@ var neighborhoods = [
   },
   {
     name : "Castle Hill",
+    borough : "Bronx",
     coords : [
       { lat: 40.8105287, lng: -73.8469756 },
       { lat: 40.8106992, lng: -73.8461602 },
@@ -7814,6 +8032,7 @@ var neighborhoods = [
   },
   {
     name : "Unionport",
+    borough : "Bronx",
     coords : [
       { lat: 40.8277254, lng: -73.8424373 },
       { lat: 40.8291705, lng: -73.8429308 },
@@ -7843,6 +8062,7 @@ var neighborhoods = [
   },
   {
     name : "Westchester Square",
+    borough : "Bronx",
     coords : [
       { lat: 40.8424504, lng: -73.8533378 },
       { lat: 40.8350802, lng: -73.8519859 },
@@ -7863,6 +8083,7 @@ var neighborhoods = [
   },
   {
     name : "Morris Park",
+    borough : "Bronx",
     coords : [
       { lat: 40.8508423, lng: -73.8621354 },
       { lat: 40.8487647, lng: -73.8617277 },
@@ -7893,6 +8114,7 @@ var neighborhoods = [
   },
   {
     name : "Pelham Bay",
+    borough : "Bronx",
     coords : [
       { lat: 40.855971000000004, lng: -73.8319659 },
       { lat: 40.8560522, lng: -73.8328242 },
@@ -7920,6 +8142,7 @@ var neighborhoods = [
   },
   {
     name : "Throggs Neck",
+    borough : "Bronx",
     coords : [
       { lat: 40.833619, lng: -73.8389611 },
       { lat: 40.8332862, lng: -73.8391435 },
@@ -8275,6 +8498,7 @@ var neighborhoods = [
   },
   {
     name : "Schuylerville",
+    borough : "Bronx",
     coords : [
       { lat: 40.8388303, lng: -73.8255501 },
       { lat: 40.845291100000004, lng: -73.8257647 },
@@ -8307,6 +8531,7 @@ var neighborhoods = [
   },
   {
     name : "Country Club",
+    borough : "Bronx",
     coords : [
       { lat: 40.8475798, lng: -73.8160443 },
       { lat: 40.84772590000001, lng: -73.8161087 },
@@ -8393,6 +8618,7 @@ var neighborhoods = [
   },
   {
     name : "Pelham Gardens",
+    borough : "Bronx",
     coords : [
       { lat: 40.8712738, lng: -73.8499045 },
       { lat: 40.8659515, lng: -73.8500118 },
@@ -8418,6 +8644,7 @@ var neighborhoods = [
   },
   {
     name : "Bronxdale",
+    borough : "Bronx",
     coords : [
       { lat: 40.857285600000004, lng: -73.8709974 },
       { lat: 40.8567014, lng: -73.8709974 },
@@ -8440,6 +8667,7 @@ var neighborhoods = [
   },
   {
     name : "Allerton",
+    borough : "Bronx",
     coords : [
       { lat: 40.87829930000001, lng: -73.8700962 },
       { lat: 40.87661190000001, lng: -73.8706112 },
@@ -8468,6 +8696,7 @@ var neighborhoods = [
   },
   {
     name : "Williamsbridge",
+    borough : "Bronx",
     coords : [
       { lat: 40.8868489, lng: -73.8654184 },
       { lat: 40.8854375, lng: -73.8662553 },
@@ -8488,6 +8717,7 @@ var neighborhoods = [
   },
   {
     name : "Olinville",
+    borough : "Bronx",
     coords : [
       { lat: 40.8715334, lng: -73.8706112 },
       { lat: 40.8714848, lng: -73.8671565 },
@@ -8513,6 +8743,7 @@ var neighborhoods = [
   },
   {
     name : "Baychester",
+    borough : "Bronx",
     coords : [
       { lat: 40.8644261, lng: -73.8305283 },
       { lat: 40.87005690000001, lng: -73.8334036 },
@@ -8532,6 +8763,7 @@ var neighborhoods = [
   },
   {
     name : "Co-Op",
+    borough : "Bronx",
     coords : [
       { lat: 40.8800352, lng: -73.8322449 },
       { lat: 40.8789726, lng: -73.8331783 },
@@ -8601,6 +8833,7 @@ var neighborhoods = [
   },
   {
     name : "Eastchester",
+    borough : "Bronx",
     coords : [
       { lat: 40.88942, lng: -73.8166344 },
       { lat: 40.8910827, lng: -73.823061 },
@@ -8654,6 +8887,7 @@ var neighborhoods = [
   },
   {
     name : "Edenwald",
+    borough : "Bronx",
     coords : [
       { lat: 40.889736299999996, lng: -73.8459134 },
       { lat: 40.8869786, lng: -73.8474154 },
@@ -8682,6 +8916,7 @@ var neighborhoods = [
   },
   {
     name : "Wakefield",
+    borough : "Bronx",
     coords : [
       { lat: 40.89333739999999, lng: -73.8618779 },
       { lat: 40.8868489, lng: -73.8654184 },
@@ -8778,6 +9013,7 @@ var neighborhoods = [
   },
   {
     name : "Woodlawn",
+    borough : "Bronx",
     coords : [
       { lat: 40.90298789999999, lng: -73.8679504 },
       { lat: 40.9023553, lng: -73.8682294 },
@@ -8801,6 +9037,7 @@ var neighborhoods = [
   },
   {
     name : "North Brother",
+    borough : "Bronx",
     coords : [
       { lat: 40.80194490000001, lng: -73.8993108 },
       { lat: 40.80140070000001, lng: -73.8993645 },
@@ -8843,6 +9080,7 @@ var neighborhoods = [
   },
   {
     name : "South Brother",
+    borough : "Bronx",
     coords : [
       { lat: 40.796820000000004, lng: -73.8986456 },
       { lat: 40.7967876, lng: -73.8988602 },
@@ -8874,6 +9112,7 @@ var neighborhoods = [
   },
   {
     name : "Rikers Island",
+    borough : "Bronx",
     coords : [
       { lat: 40.795358099999994, lng: -73.8828421 },
       { lat: 40.7960078, lng: -73.8837433 },
@@ -8929,6 +9168,7 @@ var neighborhoods = [
   },
   {
     name : "City Island",
+    borough : "Bronx",
     coords : [
       { lat: 40.8569367, lng: -73.7918401 },
       { lat: 40.8568637, lng: -73.7917113 },
@@ -9171,6 +9411,7 @@ var neighborhoods = [
   },
   {
     name : "High Island",
+    borough : "Bronx",
     coords : [
       { lat: 40.8588274, lng: -73.7870979 },
       { lat: 40.859168200000006, lng: -73.786701 },
