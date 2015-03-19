@@ -20,6 +20,8 @@ var boroughs = {
     alternate_names : ['the bronx']
   },
   staten_island : {
-    alternate_names : ['si']
+    lat : 40.5758196,
+    lng : -74.1547149,
+    alternate_names : ['staten island', 'si']
   }
 }
