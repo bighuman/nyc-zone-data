@@ -24,4 +24,4 @@ var boroughs = {
     lng : -74.1547149,
     alternate_names : ['staten island', 'si']
   }
-}
+};

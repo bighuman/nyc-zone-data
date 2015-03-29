@@ -3,9 +3,8 @@ var boroughedNeighborhoods = {
 
   // BREAK: MANHATTAN
 
-  manhattan : [
-    {
-      name : "Financial District",
+  manhattan : {
+    "financial district" : {
       coords : [
          { lat : 40.7029037, lng : -74.0173751 },
          { lat : 40.7015273, lng : -74.0160331 },
@@ -93,10 +92,9 @@ var boroughedNeighborhoods = {
          { lat : 40.7035395, lng : -74.0177153 },
          { lat : 40.7029037, lng : -74.0173751 }
       ],
-      color : "FF6666"
+      color : "ff6666"
     },
-    {
-      name : "Battery Park City",
+    "battery park city" : {
       coords : [
          { lat : 40.705107000000005, lng : -74.017128 },
          { lat : 40.705107000000005, lng : -74.016613 },
@@ -124,10 +122,9 @@ var boroughedNeighborhoods = {
          { lat : 40.704327, lng : -74.017514 },
          { lat : 40.705107000000005, lng : -74.017128 }
       ],
-      color : "66FF99"
+      color : "66ff99"
     },
-    {
-      name : "Two Bridges",
+    "two bridges" : {
       coords : [
          { lat : 40.707840000000004, lng : -73.9994 },
          { lat : 40.7080353, lng : -73.9990496 },
@@ -150,10 +147,9 @@ var boroughedNeighborhoods = {
          { lat : 40.7094953, lng : -74.0016446 },
          { lat : 40.707840000000004, lng : -73.9994 }
       ],
-      color : "33CCFF"
+      color : "33ccff"
     },
-    {
-      name : "TriBeCa",
+    "tribeca" : {
       coords : [
          { lat : 40.714379, lng : -74.013442 },
          { lat : 40.7120545, lng : -74.0082154 },
@@ -164,10 +160,9 @@ var boroughedNeighborhoods = {
          { lat : 40.718233, lng : -74.012665 },
          { lat : 40.714379, lng : -74.013442 }
       ],
-      color : "FF9900"
+      color : "ff9900"
     },
-    {
-      name : "Civic Center",
+    "civic center" : {
       coords : [
          { lat : 40.7120545, lng : -74.0082154 },
          { lat : 40.711532, lng : -74.007965 },
@@ -185,10 +180,9 @@ var boroughedNeighborhoods = {
          { lat : 40.71684220000001, lng : -74.0040811 },
          { lat : 40.7120545, lng : -74.0082154 }
       ],
-      color : "FFFF33"
+      color : "ffff33"
     },
-    {
-      name : "Chinatown",
+    "chinatown" : {
       coords : [
          { lat : 40.71684220000001, lng : -74.0040811 },
          { lat : 40.715306, lng : -74.000863 },
@@ -211,10 +205,9 @@ var boroughedNeighborhoods = {
          { lat : 40.71938800000001, lng : -74.00185 },
          { lat : 40.71684220000001, lng : -74.0040811 }
       ],
-      color : "33CC00"
+      color : "33cc00"
     },
-    {
-      name : "Little Italy",
+    "little italy" : {
       coords : [
          { lat : 40.716851, lng : -73.997773 },
          { lat : 40.719063000000006, lng : -73.9965069 },
@@ -226,10 +219,9 @@ var boroughedNeighborhoods = {
          { lat : 40.717274, lng : -73.999039 },
          { lat : 40.716851, lng : -73.997773 }
       ],
-      color : "FF9900"
+      color : "ff9900"
     },
-    {
-      name : "Lower East Side",
+    "lower east side" : {
       coords : [
          { lat : 40.7185499, lng : -73.9735973 },
          { lat : 40.7192662, lng : -73.9772276 },
@@ -262,10 +254,9 @@ var boroughedNeighborhoods = {
          { lat : 40.71693170000001, lng : -73.974132 },
          { lat : 40.7185499, lng : -73.9735973 }
       ],
-      color : "FF6666"
+      color : "ff6666"
     },
-    {
-      name : "Bowery",
+    "bowery" : {
       coords : [
          { lat : 40.71842800000001, lng : -73.99101 },
          { lat : 40.721631800000004, lng : -73.9893425 },
@@ -280,10 +271,9 @@ var boroughedNeighborhoods = {
          { lat : 40.716273, lng : -73.9921595 },
          { lat : 40.71842800000001, lng : -73.99101 }
       ],
-      color : "FFFF33"
+      color : "ffff33"
     },
-    {
-      name : "East Village",
+    "east village" : {
       coords : [
          { lat : 40.72049400000001, lng : -73.973054 },
          { lat : 40.72675490000001, lng : -73.9715517 },
@@ -301,10 +291,9 @@ var boroughedNeighborhoods = {
          { lat : 40.7185499, lng : -73.9735973 },
          { lat : 40.72049400000001, lng : -73.973054 }
       ],
-      color : "33CC00"
+      color : "33cc00"
     },
-    {
-      name : "Alphabet City",
+    "alphabet city" : {
       coords : [
          { lat : 40.7308119, lng : -73.9814865 },
          { lat : 40.7226165, lng : -73.9875915 },
@@ -312,10 +301,9 @@ var boroughedNeighborhoods = {
          { lat : 40.727413, lng : -73.973172 },
          { lat : 40.7308119, lng : -73.9814865 }
       ],
-      color : "FF9966"
+      color : "ff9966"
     },
-    {
-      name : "NoLita",
+    "nolita" : {
       coords : [
          { lat : 40.725055, lng : -73.9954319 },
          { lat : 40.72347, lng : -73.996807 },
@@ -325,10 +313,9 @@ var boroughedNeighborhoods = {
          { lat : 40.724153199999996, lng : -73.9927523 },
          { lat : 40.725055, lng : -73.9954319 }
       ],
-      color : "3366FF"
+      color : "3366ff"
     },
-    {
-      name : "SoHo",
+    "soho" : {
       coords : [
          { lat : 40.728332, lng : -74.002966 },
          { lat : 40.721925000000006, lng : -74.005476 },
@@ -341,10 +328,9 @@ var boroughedNeighborhoods = {
          { lat : 40.7254054, lng : -73.9967319 },
          { lat : 40.728332, lng : -74.002966 }
       ],
-      color : "33FFFF"
+      color : "33ffff"
     },
-    {
-      name : "Hudson Square",
+    "hudson square" : {
       coords : [
          { lat : 40.7257224, lng : -74.0110655 },
          { lat : 40.721925000000006, lng : -74.005476 },
@@ -352,10 +338,9 @@ var boroughedNeighborhoods = {
          { lat : 40.729129, lng : -74.01071200000001 },
          { lat : 40.7257224, lng : -74.0110655 }
       ],
-      color : "FF99FF"
+      color : "ff99ff"
     },
-    {
-      name : "Greenwich Village",
+    "greenwich village" : {
       coords : [
          { lat : 40.740998, lng : -74.00539 },
          { lat : 40.739454, lng : -74.006549 },
@@ -369,10 +354,9 @@ var boroughedNeighborhoods = {
          { lat : 40.7347627, lng : -73.9907186 },
          { lat : 40.740998, lng : -74.00539 }
       ],
-      color : "FFFF66"
+      color : "ffff66"
     },
-    {
-      name : "Meatpacking District",
+    "meatpacking district" : {
       coords : [
          { lat : 40.742087, lng : -74.0082 },
          { lat : 40.742494, lng : -74.008833 },
@@ -382,10 +366,9 @@ var boroughedNeighborhoods = {
          { lat : 40.740965, lng : -74.005369 },
          { lat : 40.742087, lng : -74.0082 }
       ],
-      color : "66FF99"
+      color : "66ff99"
     },
-    {
-      name : "Stuyvesant Town",
+    "stuyvesant town" : {
       coords : [
          { lat : 40.731282400000005, lng : -73.9826129 },
          { lat : 40.7284621, lng : -73.9757361 },
@@ -394,10 +377,9 @@ var boroughedNeighborhoods = {
          { lat : 40.73503, lng : -73.97994 },
          { lat : 40.731282400000005, lng : -73.9826129 }
       ],
-      color : "66FFFF"
+      color : "66ffff"
     },
-    {
-      name : "Peter Cooper Village",
+    "peter cooper village" : {
       coords : [
          { lat : 40.732722, lng : -73.974255 },
          { lat : 40.7352909, lng : -73.974788 },
@@ -405,10 +387,9 @@ var boroughedNeighborhoods = {
          { lat : 40.73503, lng : -73.97994 },
          { lat : 40.732722, lng : -73.974255 }
       ],
-      color : "FFFF66"
+      color : "ffff66"
     },
-    {
-      name : "Gramercy Park",
+    "gramercy park" : {
       coords : [
          { lat : 40.7339649, lng : -73.988921 },
          { lat : 40.731282400000005, lng : -73.9826129 },
@@ -419,10 +400,9 @@ var boroughedNeighborhoods = {
          { lat : 40.7364563, lng : -73.9870658 },
          { lat : 40.7339649, lng : -73.988921 }
       ],
-      color : "9999FF"
+      color : "9999ff"
     },
-    {
-      name : "Chelsea",
+    "chelsea" : {
       coords : [
          { lat : 40.757075, lng : -74.00494 },
          { lat : 40.753987, lng : -74.007128 },
@@ -436,10 +416,9 @@ var boroughedNeighborhoods = {
          { lat : 40.749858, lng : -73.98783800000001 },
          { lat : 40.757075, lng : -74.00494 }
       ],
-      color : "FF6666"
+      color : "ff6666"
     },
-    {
-      name : "Flatiron District",
+    "flatiron district" : {
       coords : [
          { lat : 40.7410876, lng : -73.9941826 },
          { lat : 40.73834740000001, lng : -73.9877238 },
@@ -449,10 +428,9 @@ var boroughedNeighborhoods = {
          { lat : 40.744786, lng : -73.9914639 },
          { lat : 40.7410876, lng : -73.9941826 }
       ],
-      color : "99FFFF"
+      color : "99ffff"
     },
-    {
-      name : "NoHo",
+    "noho" : {
       coords : [
          { lat : 40.7254054, lng : -73.9967319 },
          { lat : 40.725055, lng : -73.9954319 },
@@ -461,10 +439,9 @@ var boroughedNeighborhoods = {
          { lat : 40.730088, lng : -73.99273 },
          { lat : 40.7254054, lng : -73.9967319 }
       ],
-      color : "FFCCCC"
+      color : "ffcccc"
     },
-    {
-      name : "Union Square",
+    "union square" : {
       coords : [
          { lat : 40.733405000000005, lng : -73.989322 },
          { lat : 40.737145, lng : -73.986576 },
@@ -472,10 +449,9 @@ var boroughedNeighborhoods = {
          { lat : 40.735356, lng : -73.994086 },
          { lat : 40.733405000000005, lng : -73.989322 }
       ],
-      color : "FFCCCC"
+      color : "ffcccc"
     },
-    {
-      name : "Kips Bay",
+    "kips bay" : {
       coords : [
          { lat : 40.7395101, lng : -73.98478 },
          { lat : 40.7352909, lng : -73.974788 },
@@ -499,10 +475,9 @@ var boroughedNeighborhoods = {
          { lat : 40.74641200000001, lng : -73.979791 },
          { lat : 40.7395101, lng : -73.98478 }
       ],
-      color : "33FF33"
+      color : "33ff33"
     },
-    {
-      name : "Midtown South Central",
+    "midtown south central" : {
       coords : [
          { lat : 40.752182, lng : -73.977753 },
          { lat : 40.7549599, lng : -73.98416 },
@@ -514,10 +489,9 @@ var boroughedNeighborhoods = {
          { lat : 40.740260000000006, lng : -73.98648 },
          { lat : 40.752182, lng : -73.977753 }
       ],
-      color : "FF9900"
+      color : "ff9900"
     },
-    {
-      name : "Murray Hill",
+    "murray hill" : {
       coords : [
          { lat : 40.74714300000001, lng : -73.981444 },
          { lat : 40.74390799999999, lng : -73.973694 },
@@ -525,10 +499,9 @@ var boroughedNeighborhoods = {
          { lat : 40.752182, lng : -73.977753 },
          { lat : 40.74714300000001, lng : -73.981444 }
       ],
-      color : "FF9966"
+      color : "ff9966"
     },
-    {
-      name : "Garment District",
+    "garment district" : {
       coords : [
          { lat : 40.756067, lng : -73.9908746 },
          { lat : 40.757319, lng : -73.989962 },
@@ -538,10 +511,9 @@ var boroughedNeighborhoods = {
          { lat : 40.7536452, lng : -73.9851025 },
          { lat : 40.756067, lng : -73.9908746 }
       ],
-      color : "99FFFF"
+      color : "99ffff"
     },
-    {
-      name : "Koreatown",
+    "koreatown" : {
       coords : [
          { lat : 40.751175, lng : -73.986872 },
          { lat : 40.74801879999999, lng : -73.9892166 },
@@ -549,10 +521,9 @@ var boroughedNeighborhoods = {
          { lat : 40.74989, lng : -73.983804 },
          { lat : 40.751175, lng : -73.986872 }
       ],
-      color : "9999FF"
+      color : "9999ff"
     },
-    {
-      name : "Hell's Kitchen",
+    "hell's kitchen" : {
       coords : [
          { lat : 40.757075, lng : -74.00494 },
          { lat : 40.7534261, lng : -73.9962921 },
@@ -561,10 +532,9 @@ var boroughedNeighborhoods = {
          { lat : 40.75954540000001, lng : -74.0031571 },
          { lat : 40.757075, lng : -74.00494 }
       ],
-      color : "66FF99"
+      color : "66ff99"
     },
-    {
-      name : "Theater District",
+    "theater district" : {
       coords : [
          { lat : 40.756067, lng : -73.9908746 },
          { lat : 40.7536452, lng : -73.9851025 },
@@ -572,10 +542,9 @@ var boroughedNeighborhoods = {
          { lat : 40.764258999999996, lng : -73.984748 },
          { lat : 40.756067, lng : -73.9908746 }
       ],
-      color : "FF99FF"
+      color : "ff99ff"
     },
-    {
-      name : "Clinton",
+    "clinton" : {
       coords : [
          { lat : 40.757319, lng : -73.989962 },
          { lat : 40.764258999999996, lng : -73.984748 },
@@ -648,10 +617,9 @@ var boroughedNeighborhoods = {
          { lat : 40.7622425, lng : -74.0018235 },
          { lat : 40.757319, lng : -73.989962 }
       ],
-      color : "FF9966"
+      color : "ff9966"
     },
-    {
-      name : "Midtown Center",
+    "midtown center" : {
       coords : [
          { lat : 40.7549599, lng : -73.98416 },
          { lat : 40.7507842, lng : -73.9744701 },
@@ -659,10 +627,9 @@ var boroughedNeighborhoods = {
          { lat : 40.7656971, lng : -73.9762512 },
          { lat : 40.7549599, lng : -73.98416 }
       ],
-      color : "66FF99"
+      color : "66ff99"
     },
-    {
-      name : "Midtown East",
+    "midtown east" : {
       coords : [
          { lat : 40.7507842, lng : -73.9744701 },
          { lat : 40.74798009999999, lng : -73.9678965 },
@@ -673,10 +640,9 @@ var boroughedNeighborhoods = {
          { lat : 40.7616016, lng : -73.9665947 },
          { lat : 40.7507842, lng : -73.9744701 }
       ],
-      color : "9999FF"
+      color : "9999ff"
     },
-    {
-      name : "Sutton Place",
+    "sutton place" : {
       coords : [
          { lat : 40.75593700000001, lng : -73.964903 },
          { lat : 40.754994, lng : -73.962672 },
@@ -686,10 +652,9 @@ var boroughedNeighborhoods = {
          { lat : 40.7597085, lng : -73.9620385 },
          { lat : 40.75593700000001, lng : -73.964903 }
       ],
-      color : "FFCC66"
+      color : "ffcc66"
     },
-    {
-      name : "Upper East Side",
+    "upper east side" : {
       coords : [
          { lat : 40.764388999999994, lng : -73.973161 },
          { lat : 40.75835920000001, lng : -73.958774 },
@@ -708,10 +673,9 @@ var boroughedNeighborhoods = {
          { lat : 40.7880309, lng : -73.955973 },
          { lat : 40.764388999999994, lng : -73.973161 }
       ],
-      color : "33CCFF"
+      color : "33ccff"
     },
-    {
-      name : "Upper West Side",
+    "upper west side" : {
       coords : [
          { lat : 40.8004849, lng : -73.9582524 },
          { lat : 40.805949, lng : -73.970861 },
@@ -748,10 +712,9 @@ var boroughedNeighborhoods = {
          { lat : 40.7684953, lng : -73.9815702 },
          { lat : 40.8004849, lng : -73.9582524 }
       ],
-      color : "33CC00"
+      color : "33cc00"
     },
-    {
-      name : "East Harlem",
+    "east harlem" : {
       coords : [
          { lat : 40.7880309, lng : -73.955973 },
          { lat : 40.7828159, lng : -73.943571 },
@@ -776,10 +739,9 @@ var boroughedNeighborhoods = {
          { lat : 40.803399, lng : -73.944665 },
          { lat : 40.7880309, lng : -73.955973 }
       ],
-      color : "FF6666"
+      color : "ff6666"
     },
-    {
-      name : "Morningside Heights",
+    "morningside heights" : {
       coords : [
          { lat : 40.8004849, lng : -73.9582524 },
          { lat : 40.810285300000004, lng : -73.9511487 },
@@ -789,10 +751,9 @@ var boroughedNeighborhoods = {
          { lat : 40.805949, lng : -73.970861 },
          { lat : 40.8004849, lng : -73.9582524 }
       ],
-      color : "33CCFF"
+      color : "33ccff"
     },
-    {
-      name : "Harlem",
+    "harlem" : {
       coords : [
          { lat : 40.803399, lng : -73.944665 },
          { lat : 40.8039431, lng : -73.94604950000002 },
@@ -822,10 +783,9 @@ var boroughedNeighborhoods = {
          { lat : 40.7970072, lng : -73.9493431 },
          { lat : 40.803399, lng : -73.944665 }
       ],
-      color : "FFFF33"
+      color : "ffff33"
     },
-    {
-      name : "Manhatanville",
+    "manhatanville" : {
       coords : [
          { lat : 40.821498, lng : -73.958643 },
          { lat : 40.81874599999999, lng : -73.9609119 },
@@ -844,10 +804,9 @@ var boroughedNeighborhoods = {
          { lat : 40.8180071, lng : -73.9497716 },
          { lat : 40.821498, lng : -73.958643 }
       ],
-      color : "FFCCCC"
+      color : "ffcccc"
     },
-    {
-      name : "Hamilton Heights",
+    "hamilton heights" : {
       coords : [
          { lat : 40.8240399, lng : -73.94469000000001 },
          { lat : 40.82624800000001, lng : -73.943145 },
@@ -860,10 +819,9 @@ var boroughedNeighborhoods = {
          { lat : 40.817333, lng : -73.948077 },
          { lat : 40.8240399, lng : -73.94469000000001 }
       ],
-      color : "CCCCFF"
+      color : "ccccff"
     },
-    {
-      name : "Washington Heights",
+    "washington heights" : {
       coords : [
          { lat : 40.8345649, lng : -73.9501694 },
          { lat : 40.8280221, lng : -73.9345475 },
@@ -907,10 +865,9 @@ var boroughedNeighborhoods = {
          { lat : 40.84008, lng : -73.9484669 },
          { lat : 40.8345649, lng : -73.9501694 }
       ],
-      color : "FF9966"
+      color : "ff9966"
     },
-    {
-      name : "Fort George",
+    "fort george" : {
       coords : [
          { lat : 40.8471048, lng : -73.9284572 },
          { lat : 40.8507754, lng : -73.925845 },
@@ -959,10 +916,9 @@ var boroughedNeighborhoods = {
          { lat : 40.85022549999999, lng : -73.9357481 },
          { lat : 40.8471048, lng : -73.9284572 }
       ],
-      color : "33CC00"
+      color : "33cc00"
     },
-    {
-      name : "Inwood",
+    "inwood" : {
       coords : [
          { lat : 40.858259399999994, lng : -73.9210493 },
          { lat : 40.8584178, lng : -73.9211343 },
@@ -1066,10 +1022,9 @@ var boroughedNeighborhoods = {
          { lat : 40.8590505, lng : -73.9229679 },
          { lat : 40.858259399999994, lng : -73.9210493 }
       ],
-      color : "FF9900"
+      color : "ff9900"
     },
-    {
-      name : "Turtle Bay",
+    "turtle bay" : {
       coords : [
          { lat : 40.74798009999999, lng : -73.9678965 },
          { lat : 40.754751, lng : -73.962003 },
@@ -1079,10 +1034,9 @@ var boroughedNeighborhoods = {
          { lat : 40.74730619999999, lng : -73.9684827 },
          { lat : 40.74798009999999, lng : -73.9678965 }
       ],
-      color : "CCCCFF"
+      color : "ccccff"
     },
-    {
-      name : "Manhattan Valley",
+    "manhattan valley" : {
       coords : [
          { lat : 40.8004849, lng : -73.9582524 },
          { lat : 40.8041458, lng : -73.9667382 },
@@ -1093,10 +1047,9 @@ var boroughedNeighborhoods = {
          { lat : 40.7916136, lng : -73.96474740000001 },
          { lat : 40.8004849, lng : -73.9582524 }
       ],
-      color : "FFCCFF"
+      color : "ffccff"
     },
-    {
-      name : "Lincoln Square",
+    "lincoln square" : {
       coords : [
          { lat : 40.78125599999999, lng : -73.9880699 },
          { lat : 40.779956, lng : -73.988997 },
@@ -1119,10 +1072,9 @@ var boroughedNeighborhoods = {
          { lat : 40.776203, lng : -73.97595 },
          { lat : 40.78125599999999, lng : -73.9880699 }
       ],
-      color : "FF9900"
+      color : "ff9900"
     },
-    {
-      name : "Lenox Hill",
+    "lenox hill" : {
       coords : [
          { lat : 40.773229, lng : -73.9667489 },
          { lat : 40.764388999999994, lng : -73.973161 },
@@ -1132,10 +1084,9 @@ var boroughedNeighborhoods = {
          { lat : 40.76641209999999, lng : -73.9506336 },
          { lat : 40.773229, lng : -73.9667489 }
       ],
-      color : "FF9900"
+      color : "ff9900"
     },
-    {
-      name : "Yorkville",
+    "yorkville" : {
       coords : [
          { lat : 40.770207000000006, lng : -73.947351 },
          { lat : 40.774107, lng : -73.943489 },
@@ -1148,10 +1099,9 @@ var boroughedNeighborhoods = {
          { lat : 40.7742689, lng : -73.957264 },
          { lat : 40.770207000000006, lng : -73.947351 }
       ],
-      color : "FFCCCC"
+      color : "ffcccc"
     },
-    {
-      name : "Randall's Island",
+    "randall's island" : {
       coords : [
          { lat : 40.784376, lng : -73.936193 },
          { lat : 40.7830439, lng : -73.935163 },
@@ -1188,8 +1138,7 @@ var boroughedNeighborhoods = {
       ],
       color : "009900"
     },
-    {
-      name : "West Village",
+    "west village" : {
       coords : [
          { lat : 40.739454, lng : -74.006549 },
          { lat : 40.739388, lng : -74.010034 },
@@ -1202,10 +1151,9 @@ var boroughedNeighborhoods = {
          { lat : 40.740965, lng : -74.005369 },
          { lat : 40.739454, lng : -74.006549 }
       ],
-      color : "FF9900"
+      color : "ff9900"
     },
-    {
-      name : "NoMad",
+    "nomad" : {
       coords : [
          { lat : 40.744217, lng : -73.991902 },
          { lat : 40.742827, lng : -73.988609 },
@@ -1217,10 +1165,9 @@ var boroughedNeighborhoods = {
          { lat : 40.7473224, lng : -73.9897136 },
          { lat : 40.744217, lng : -73.991902 }
       ],
-      color : "FF9900"
+      color : "ff9900"
     },
-    {
-      name : "Tudor City",
+    "tudor city" : {
       coords : [
          { lat : 40.7485659, lng : -73.973116 },
          { lat : 40.747574, lng : -73.970799 },
@@ -1230,8 +1177,7 @@ var boroughedNeighborhoods = {
       ],
       color : "990000"
     },
-    {
-      name : "Diamond District",
+    "diamond district" : {
       coords : [
          { lat : 40.757758, lng : -73.982066 },
          { lat : 40.756392000000005, lng : -73.978869 },
@@ -1241,8 +1187,7 @@ var boroughedNeighborhoods = {
       ],
       color : "000099"
     },
-    {
-      name : "Roosevelt Island",
+    "roosevelt island" : {
       coords : [
          { lat : 40.750077, lng : -73.961518 },
          { lat : 40.749573, lng : -73.961658 },
@@ -1313,10 +1258,9 @@ var boroughedNeighborhoods = {
          { lat : 40.7501589, lng : -73.961197 },
          { lat : 40.750077, lng : -73.961518 }
       ],
-      color : "0000FF"
+      color : "0000ff"
     },
-    {
-      name : "Marble Hill",
+    "marble hill" : {
       coords : [
         { lat : 40.874745999999995, lng : -73.91219600000001 },
         { lat : 40.874186, lng : -73.910855 },
@@ -1338,10 +1282,9 @@ var boroughedNeighborhoods = {
         { lat : 40.8757441, lng : -73.9157149 },
         { lat : 40.874745999999995, lng : -73.91219600000001 }
       ],
-      color : "FFCC00"
+      color : "ffcc00"
     },
-    {
-      name : "Rose Hill",
+    "rose hill" : {
       coords : [
          { lat : 40.740096, lng : -73.982214 },
          { lat : 40.743201, lng : -73.979961 },
@@ -1351,8 +1294,7 @@ var boroughedNeighborhoods = {
       ],
       color : "666666"
     },
-    {
-      name : "Restaurant Row",
+    "restaurant row" : {
       coords : [
          { lat : 40.760667000000005, lng : -73.990992 },
          { lat : 40.759464, lng : -73.98815990000001 },
@@ -1360,105 +1302,101 @@ var boroughedNeighborhoods = {
          { lat : 40.761301, lng : -73.99052000000002 },
          { lat : 40.760667000000005, lng : -73.990992 }
       ],
-      color : "FF9900"
+      color : "ff9900"
+    },
+    "liberty island" : {
+      borough : "manhattan",
+      coords : [
+        { lat : 40.6904537, lng : -74.0471649},
+        { lat : 40.6903886, lng : -74.0472829},
+        { lat : 40.6900144, lng : -74.0469718},
+        { lat : 40.6897622, lng : -74.0475243},
+        { lat : 40.6899412, lng : -74.0476853},
+        { lat : 40.689880200000005, lng : -74.047814},
+        { lat : 40.6895792, lng : -74.0475619},
+        { lat : 40.6899087, lng : -74.0468752},
+        { lat : 40.6892985, lng : -74.0463603},
+        { lat : 40.6885623, lng : -74.0448958},
+        { lat : 40.6884809, lng : -74.0444613},
+        { lat : 40.688546, lng : -74.0440482},
+        { lat : 40.6887087, lng : -74.0437478},
+        { lat : 40.689139899999994, lng : -74.0436029},
+        { lat : 40.6895995, lng : -74.04356},
+        { lat : 40.6899534, lng : -74.0427715},
+        { lat : 40.6898883, lng : -74.0427017},
+        { lat : 40.6899249, lng : -74.0426373},
+        { lat : 40.6899981, lng : -74.04268560000001},
+        { lat : 40.6900592, lng : -74.0427393},
+        { lat : 40.690103900000004, lng : -74.0427983},
+        { lat : 40.6900754, lng : -74.0428573},
+        { lat : 40.6900022, lng : -74.0428036},
+        { lat : 40.6896565, lng : -74.0435869},
+        { lat : 40.69016489999999, lng : -74.0440106},
+        { lat : 40.6905066, lng : -74.0446544},
+        { lat : 40.6910801, lng : -74.0461242},
+        { lat : 40.6910882, lng : -74.0462261},
+        { lat : 40.69105570000001, lng : -74.0462583},
+        { lat : 40.691015, lng : -74.0472025},
+        { lat : 40.6908808, lng : -74.0473151},
+        { lat : 40.690742500000006, lng : -74.0473098},
+        { lat : 40.6906164, lng : -74.0471864},
+        { lat : 40.6904537, lng : -74.0471649}
+      ],
+      color : "777777"
+    },
+    "ellis island" : {
+      borough : "manhattan",
+      coords : [
+        { lat : 40.6980148, lng : -74.0438175 },
+        { lat : 40.6963961, lng : -74.0417361 },
+        { lat : 40.697665, lng : -74.0399873 },
+        { lat : 40.6991048, lng : -74.0418005 },
+        { lat : 40.6994708, lng : -74.0413177 },
+        { lat : 40.6980636, lng : -74.039408 },
+        { lat : 40.6983239, lng : -74.0390754 },
+        { lat : 40.6983239, lng : -74.0382814 },
+        { lat : 40.6990153, lng : -74.0381634 },
+        { lat : 40.6992919, lng : -74.0377772 },
+        { lat : 40.700576999999996, lng : -74.0394616 },
+        { lat : 40.7005201, lng : -74.0395689 },
+        { lat : 40.7008942, lng : -74.0400195 },
+        { lat : 40.7002435, lng : -74.0408778 },
+        { lat : 40.700455, lng : -74.0411353 },
+        { lat : 40.6989909, lng : -74.043088 },
+        { lat : 40.6987469, lng : -74.0428519 },
+        { lat : 40.6980148, lng : -74.0438175 }
+      ],
+      color : "7c3592"
+    },
+    "governors island" : {
+      borough : "manhattan",
+      coords : [
+        { lat : 40.6863332, lng : -74.0264797 },
+        { lat : 40.685226699999994, lng : -74.0266943 },
+        { lat : 40.68431549999999, lng : -74.0260935 },
+        { lat : 40.6838599, lng : -74.0246773 },
+        { lat : 40.6838925, lng : -74.023304 },
+        { lat : 40.686853799999994, lng : -74.0170383 },
+        { lat : 40.6872118, lng : -74.0159655 },
+        { lat : 40.68717929999999, lng : -74.014678 },
+        { lat : 40.6880253, lng : -74.013133 },
+        { lat : 40.6891643, lng : -74.01223180000001 },
+        { lat : 40.6911492, lng : -74.0123177 },
+        { lat : 40.6928413, lng : -74.014163 },
+        { lat : 40.6933619, lng : -74.0166092 },
+        { lat : 40.6931342, lng : -74.018755 },
+        { lat : 40.693166700000006, lng : -74.0196991 },
+        { lat : 40.6917675, lng : -74.0205145 },
+        { lat : 40.6863332, lng : -74.0264797 }
+      ],
+      color : "009d57"
     }
-  ],
-  {
-    name : "Liberty Island",
-    borough : "Manhattan",
-    coords : [
-      { lat : 40.6904537, lng : -74.0471649},
-      { lat : 40.6903886, lng : -74.0472829},
-      { lat : 40.6900144, lng : -74.0469718},
-      { lat : 40.6897622, lng : -74.0475243},
-      { lat : 40.6899412, lng : -74.0476853},
-      { lat : 40.689880200000005, lng : -74.047814},
-      { lat : 40.6895792, lng : -74.0475619},
-      { lat : 40.6899087, lng : -74.0468752},
-      { lat : 40.6892985, lng : -74.0463603},
-      { lat : 40.6885623, lng : -74.0448958},
-      { lat : 40.6884809, lng : -74.0444613},
-      { lat : 40.688546, lng : -74.0440482},
-      { lat : 40.6887087, lng : -74.0437478},
-      { lat : 40.689139899999994, lng : -74.0436029},
-      { lat : 40.6895995, lng : -74.04356},
-      { lat : 40.6899534, lng : -74.0427715},
-      { lat : 40.6898883, lng : -74.0427017},
-      { lat : 40.6899249, lng : -74.0426373},
-      { lat : 40.6899981, lng : -74.04268560000001},
-      { lat : 40.6900592, lng : -74.0427393},
-      { lat : 40.690103900000004, lng : -74.0427983},
-      { lat : 40.6900754, lng : -74.0428573},
-      { lat : 40.6900022, lng : -74.0428036},
-      { lat : 40.6896565, lng : -74.0435869},
-      { lat : 40.69016489999999, lng : -74.0440106},
-      { lat : 40.6905066, lng : -74.0446544},
-      { lat : 40.6910801, lng : -74.0461242},
-      { lat : 40.6910882, lng : -74.0462261},
-      { lat : 40.69105570000001, lng : -74.0462583},
-      { lat : 40.691015, lng : -74.0472025},
-      { lat : 40.6908808, lng : -74.0473151},
-      { lat : 40.690742500000006, lng : -74.0473098},
-      { lat : 40.6906164, lng : -74.0471864},
-      { lat : 40.6904537, lng : -74.0471649}
-    ],
-    color : "777777"
-  },
-  {
-    name : "Ellis Island",
-    borough : "Manhattan",
-    coords : [
-      { lat : 40.6980148, lng : -74.0438175 },
-      { lat : 40.6963961, lng : -74.0417361 },
-      { lat : 40.697665, lng : -74.0399873 },
-      { lat : 40.6991048, lng : -74.0418005 },
-      { lat : 40.6994708, lng : -74.0413177 },
-      { lat : 40.6980636, lng : -74.039408 },
-      { lat : 40.6983239, lng : -74.0390754 },
-      { lat : 40.6983239, lng : -74.0382814 },
-      { lat : 40.6990153, lng : -74.0381634 },
-      { lat : 40.6992919, lng : -74.0377772 },
-      { lat : 40.700576999999996, lng : -74.0394616 },
-      { lat : 40.7005201, lng : -74.0395689 },
-      { lat : 40.7008942, lng : -74.0400195 },
-      { lat : 40.7002435, lng : -74.0408778 },
-      { lat : 40.700455, lng : -74.0411353 },
-      { lat : 40.6989909, lng : -74.043088 },
-      { lat : 40.6987469, lng : -74.0428519 },
-      { lat : 40.6980148, lng : -74.0438175 }
-    ],
-    color : "7C3592"
-  },
-  {
-    name : "Governors Island",
-    borough : "Manhattan",
-    coords : [
-      { lat : 40.6863332, lng : -74.0264797 },
-      { lat : 40.685226699999994, lng : -74.0266943 },
-      { lat : 40.68431549999999, lng : -74.0260935 },
-      { lat : 40.6838599, lng : -74.0246773 },
-      { lat : 40.6838925, lng : -74.023304 },
-      { lat : 40.686853799999994, lng : -74.0170383 },
-      { lat : 40.6872118, lng : -74.0159655 },
-      { lat : 40.68717929999999, lng : -74.014678 },
-      { lat : 40.6880253, lng : -74.013133 },
-      { lat : 40.6891643, lng : -74.01223180000001 },
-      { lat : 40.6911492, lng : -74.0123177 },
-      { lat : 40.6928413, lng : -74.014163 },
-      { lat : 40.6933619, lng : -74.0166092 },
-      { lat : 40.6931342, lng : -74.018755 },
-      { lat : 40.693166700000006, lng : -74.0196991 },
-      { lat : 40.6917675, lng : -74.0205145 },
-      { lat : 40.6863332, lng : -74.0264797 }
-    ],
-    color : "009D57"
   },
 
-  // BREAK: BROOKLYN
+  // break: brooklyn
 
-  brooklyn : [
-    {
-      name : "Dumbo",
+  brooklyn : {
+    "dumbo" : {
       coords : [
         { lat: 40.703121, lng: -73.994766 },
         { lat: 40.702976, lng: -73.994896 },
@@ -1479,10 +1417,9 @@ var boroughedNeighborhoods = {
         { lat: 40.703465, lng: -73.993996 },
         { lat: 40.703121, lng: -73.994766 }
       ],
-      color : "FF99FF"
+      color : "ff99ff"
     },
-    {
-      name : "Vinegar Hill",
+    "vinegar hill" : {
       coords : [
         { lat: 40.704556, lng: -73.988525 },
         { lat: 40.704357, lng: -73.980843 },
@@ -1493,10 +1430,9 @@ var boroughedNeighborhoods = {
         { lat: 40.704067, lng: -73.988525 },
         { lat: 40.704556, lng: -73.988525 }
       ],
-      color : "FF9900"
+      color : "ff9900"
     },
-    {
-      name : "Brooklyn Heights",
+    "brooklyn heights" : {
       coords : [
         { lat: 40.703121, lng: -73.994896 },
         { lat: 40.701904, lng: -73.992043 },
@@ -1508,10 +1444,9 @@ var boroughedNeighborhoods = {
         { lat: 40.691769, lng: -74.000435 },
         { lat: 40.703121, lng: -73.994896 }
       ],
-      color : "FFFF99"
+      color : "ffff99"
     },
-    {
-      name : "Fort Greene",
+    "fort greene" : {
       coords : [
         { lat: 40.698112, lng: -73.980309 },
         { lat: 40.697689, lng: -73.970909 },
@@ -1526,8 +1461,7 @@ var boroughedNeighborhoods = {
       ],
       color : "666666"
     },
-    {
-      name : "Clinton Hill",
+    "clinton hill" : {
       coords : [
         { lat: 40.697723, lng: -73.970909 },
         { lat: 40.697495, lng: -73.965546 },
@@ -1539,8 +1473,7 @@ var boroughedNeighborhoods = {
       ],
       color : "990000"
     },
-    {
-      name : "Downtown Brooklyn",
+    "downtown brooklyn" : {
       coords : [
         { lat: 40.703121, lng: -73.994789 },
         { lat: 40.703529, lng: -73.993950 },
@@ -1565,8 +1498,7 @@ var boroughedNeighborhoods = {
       ],
       color : "000099"
     },
-    {
-      name : "Columbia Street Waterfront",
+    "columbia street waterfront" : {
       coords : [
         { lat: 40.691734, lng: -74.000565 },
         { lat: 40.691280, lng: -73.998589 },
@@ -1577,10 +1509,9 @@ var boroughedNeighborhoods = {
         { lat: 40.692192, lng: -74.001808 },
         { lat: 40.691734, lng: -74.000565 }
       ],
-      color : "66FFFF"
+      color : "66ffff"
     },
-    {
-      name : "Cobble Hill",
+    "cobble hill" : {
       coords : [
         { lat: 40.691311, lng: -73.998550 },
         { lat: 40.689621, lng: -73.992287 },
@@ -1589,10 +1520,9 @@ var boroughedNeighborhoods = {
         { lat: 40.689922, lng: -73.998253 },
         { lat: 40.691311, lng: -73.998550 }
       ],
-      color : "FF6666"
+      color : "ff6666"
     },
-    {
-      name : "Carroll Gardens",
+    "carroll gardens" : {
       coords : [
         { lat: 40.686527, lng: -73.993874 },
         { lat: 40.684624, lng: -73.989128 },
@@ -1608,8 +1538,7 @@ var boroughedNeighborhoods = {
       ],
       color : "996633"
     },
-    {
-      name : "Red Hook",
+    "red hook" : {
       coords : [
         { lat: 40.686367, lng: -74.007988 },
         { lat: 40.686302, lng: -74.008545 },
@@ -1652,10 +1581,9 @@ var boroughedNeighborhoods = {
         { lat: 40.679501, lng: -74.003525 },
         { lat: 40.686367, lng: -74.007988 }
       ],
-      color : "FF99FF"
+      color : "ff99ff"
     },
-    {
-      name : "Boerum Hill",
+    "boerum hill" : {
       coords : [
         { lat: 40.685780, lng: -73.994087 },
         { lat: 40.689651, lng: -73.992287 },
@@ -1667,10 +1595,9 @@ var boroughedNeighborhoods = {
         { lat: 40.680801, lng: -73.981056 },
         { lat: 40.685780, lng: -73.994087 }
       ],
-      color : "99FF99"
+      color : "99ff99"
     },
-    {
-      name : "Prospect Heights",
+    "prospect heights" : {
       coords : [
         { lat: 40.683926, lng: -73.977257 },
         { lat: 40.683632, lng: -73.975990 },
@@ -1688,8 +1615,7 @@ var boroughedNeighborhoods = {
       ],
       color : "999900"
     },
-    {
-      name : "Gowanus",
+    "gowanus" : {
       coords : [
         { lat: 40.683990, lng: -73.989540 },
         { lat: 40.680767, lng: -73.981041 },
@@ -1702,10 +1628,9 @@ var boroughedNeighborhoods = {
         { lat: 40.676601, lng: -73.994644 },
         { lat: 40.683990, lng: -73.989540 }
       ],
-      color : "FF6600"
+      color : "ff6600"
     },
-    {
-      name : "Park Slope",
+    "park slope" : {
       coords : [
         { lat: 40.684990, lng: -73.978035 },
         { lat: 40.674911, lng: -73.970657 },
@@ -1722,10 +1647,9 @@ var boroughedNeighborhoods = {
         { lat: 40.680832, lng: -73.981010 },
         { lat: 40.684990, lng: -73.978035 }
       ],
-      color : "3366FF"
+      color : "3366ff"
     },
-    {
-      name : "Greenwood",
+    "greenwood" : {
       coords : [
         { lat: 40.668919, lng: -73.998947 },
         { lat: 40.666592, lng: -74.002701 },
@@ -1750,8 +1674,7 @@ var boroughedNeighborhoods = {
       ],
       color : "009900"
     },
-    {
-      name : "Williamsburg",
+    "williamsburg" : {
       coords : [
         { lat: 40.725170, lng: -73.962051 },
         { lat: 40.722088, lng: -73.963150 },
@@ -1781,8 +1704,7 @@ var boroughedNeighborhoods = {
       ],
       color : "009900"
     },
-    {
-      name : "Bedford - Stuyvesant",
+    "bedford - stuyvesant" : {
       coords : [
         { lat: 40.698147, lng: -73.961609 },
         { lat: 40.700619, lng: -73.941437 },
@@ -1799,10 +1721,9 @@ var boroughedNeighborhoods = {
         { lat: 40.680084, lng: -73.957909 },
         { lat: 40.698147, lng: -73.961609 }
       ],
-      color : "66FFFF"
+      color : "66ffff"
     },
-    {
-      name : "Tompkins Park North",
+    "tompkins park north" : {
       coords : [
         { lat: 40.698147, lng: -73.961685 },
         { lat: 40.699867, lng: -73.947311 },
@@ -1810,10 +1731,9 @@ var boroughedNeighborhoods = {
         { lat: 40.685291, lng: -73.959106 },
         { lat: 40.698147, lng: -73.961685 }
       ],
-      color : "FFFF99"
+      color : "ffff99"
     },
-    {
-      name : "Crown Heights",
+    "crown heights" : {
       coords : [
         { lat: 40.680866, lng: -73.964134 },
         { lat: 40.663258, lng: -73.960785 },
@@ -1825,10 +1745,9 @@ var boroughedNeighborhoods = {
         { lat: 40.678654, lng: -73.952370 },
         { lat: 40.680866, lng: -73.964134 }
       ],
-      color : "CCCCCC"
+      color : "cccccc"
     },
-    {
-      name : "Bushwick",
+    "bushwick" : {
       coords : [
         { lat: 40.700619, lng: -73.941475 },
         { lat: 40.679401, lng: -73.905167 },
@@ -1853,8 +1772,7 @@ var boroughedNeighborhoods = {
       ],
       color : "333333"
     },
-    {
-      name : "Bay Ridge",
+    "bay ridge" : {
       coords : [
         { lat: 40.643852, lng: -74.031044 },
         { lat: 40.645153, lng: -74.033707 },
@@ -1876,10 +1794,9 @@ var boroughedNeighborhoods = {
         { lat: 40.641930, lng: -74.026833 },
         { lat: 40.643852, lng: -74.031044 }
       ],
-      color : "FF9966"
+      color : "ff9966"
     },
-    {
-      name : "Sunset Park",
+    "sunset park" : {
       coords : [
         { lat: 40.645985, lng: -73.995064 },
         { lat: 40.631393, lng: -74.010353 },
@@ -1890,10 +1807,9 @@ var boroughedNeighborhoods = {
         { lat: 40.659389, lng: -74.017418 },
         { lat: 40.645985, lng: -73.995064 }
       ],
-      color : "0000FF"
+      color : "0000ff"
     },
-    {
-      name : "Bensonhurst",
+    "bensonhurst" : {
       coords : [
         { lat: 40.612713, lng: -74.011543 },
         { lat: 40.601952, lng: -73.993736 },
@@ -1904,8 +1820,7 @@ var boroughedNeighborhoods = {
       ],
       color : "666666"
     },
-    {
-      name : "Dyker Heights",
+    "dyker heights" : {
       coords : [
         { lat: 40.606655, lng: -74.015495 },
         { lat: 40.607468, lng: -74.016998 },
@@ -1927,10 +1842,9 @@ var boroughedNeighborhoods = {
         { lat: 40.602844, lng: -74.019417 },
         { lat: 40.606655, lng: -74.015495 }
       ],
-      color : "66CCCC"
+      color : "66cccc"
     },
-    {
-      name : "Borough Park",
+    "borough park" : {
       coords : [
         { lat: 40.647068, lng: -73.993904 },
         { lat: 40.644146, lng: -73.989082 },
@@ -1943,10 +1857,9 @@ var boroughedNeighborhoods = {
         { lat: 40.631378, lng: -74.010353 },
         { lat: 40.647068, lng: -73.993904 }
       ],
-      color : "FFFF00"
+      color : "ffff00"
     },
-    {
-      name : "Mapleton",
+    "mapleton" : {
       coords : [
         { lat: 40.630615, lng: -73.976997 },
         { lat: 40.629391, lng: -73.979721 },
@@ -1954,10 +1867,9 @@ var boroughedNeighborhoods = {
         { lat: 40.608807, lng: -73.973053 },
         { lat: 40.630615, lng: -73.976997 }
       ],
-      color : "FF6666"
+      color : "ff6666"
     },
-    {
-      name : "Bath Beach",
+    "bath beach" : {
       coords : [
         { lat: 40.612659, lng: -74.011543 },
         { lat: 40.601952, lng: -73.993729 },
@@ -1978,8 +1890,7 @@ var boroughedNeighborhoods = {
       ],
       color : "009900"
     },
-    {
-      name : "Windsor Terrace",
+    "windsor terrace" : {
       coords : [
         { lat: 40.656635, lng: -73.984032 },
         { lat: 40.660522, lng: -73.980003 },
@@ -2005,8 +1916,7 @@ var boroughedNeighborhoods = {
       ],
       color : "990000"
     },
-    {
-      name : "Gravesend",
+    "gravesend" : {
       coords : [
         { lat: 40.593884, lng: -74.002060 },
         { lat: 40.591797, lng: -74.000984 },
@@ -2053,10 +1963,9 @@ var boroughedNeighborhoods = {
         { lat: 40.600513, lng: -73.995171 },
         { lat: 40.593884, lng: -74.002060 }
       ],
-      color : "9999FF"
+      color : "9999ff"
     },
-    {
-      name : "Kensington & Parkville",
+    "kensington & parkville" : {
       coords : [
         { lat: 40.647255, lng: -73.980217 },
         { lat: 40.647778, lng: -73.975243 },
@@ -2067,10 +1976,9 @@ var boroughedNeighborhoods = {
         { lat: 40.630905, lng: -73.977043 },
         { lat: 40.647255, lng: -73.980217 }
       ],
-      color : "66CCCC"
+      color : "66cccc"
     },
-    {
-      name : "Flatbush",
+    "flatbush" : {
       coords : [
         { lat: 40.646309, lng: -73.970711 },
         { lat: 40.650719, lng: -73.971939 },
@@ -2098,10 +2006,9 @@ var boroughedNeighborhoods = {
         { lat: 40.645073, lng: -73.970345 },
         { lat: 40.646309, lng: -73.970711 }
       ],
-      color : "FF99FF"
+      color : "ff99ff"
     },
-    {
-      name : "Midwood",
+    "midwood" : {
       coords : [
         { lat: 40.627586, lng: -73.976440 },
         { lat: 40.632305, lng: -73.966675 },
@@ -2115,8 +2022,7 @@ var boroughedNeighborhoods = {
       ],
       color : "009900"
     },
-    {
-      name : "Sheepshead Bay",
+    "sheepshead bay" : {
       coords : [
         { lat: 40.609425, lng: -73.967514 },
         { lat: 40.612030, lng: -73.944031 },
@@ -2185,8 +2091,7 @@ var boroughedNeighborhoods = {
       ],
       color : "333333"
     },
-    {
-      name : "Prospect Lefferts Gardens",
+    "prospect lefferts gardens" : {
       coords : [
         { lat: 40.642860, lng: -73.954361 },
         { lat: 40.644943, lng: -73.954597 },
@@ -2212,8 +2117,7 @@ var boroughedNeighborhoods = {
       ],
       color : "000099"
     },
-    {
-      name : "East Flatbush",
+    "east flatbush" : {
       coords : [
         { lat: 40.630745, lng: -73.945282 },
         { lat: 40.631786, lng: -73.938164 },
@@ -2236,8 +2140,7 @@ var boroughedNeighborhoods = {
       ],
       color : "339999"
     },
-    {
-      name : "Brownsville",
+    "brownsville" : {
       coords : [
         { lat: 40.665859, lng: -73.925522 },
         { lat: 40.666073, lng: -73.925713 },
@@ -2255,10 +2158,9 @@ var boroughedNeighborhoods = {
         { lat: 40.650414, lng: -73.908463 },
         { lat: 40.665859, lng: -73.925522 }
       ],
-      color : "FF99FF"
+      color : "ff99ff"
     },
-    {
-      name : "Cypress Hills",
+    "cypress hills" : {
       coords : [
         { lat: 40.691833, lng: -73.901680 },
         { lat: 40.688251, lng: -73.900520 },
@@ -2302,10 +2204,9 @@ var boroughedNeighborhoods = {
         { lat: 40.689285, lng: -73.904053 },
         { lat: 40.691833, lng: -73.901680 }
       ],
-      color : "FF6666"
+      color : "ff6666"
     },
-    {
-      name : "East New York",
+    "east new york" : {
       coords : [
         { lat: 40.675755, lng: -73.904022 },
         { lat: 40.675350, lng: -73.899254 },
@@ -2371,8 +2272,7 @@ var boroughedNeighborhoods = {
       ],
       color : "330033"
     },
-    {
-      name : "Greenpoint",
+    "greenpoint" : {
       coords : [
         { lat: 40.718365, lng: -73.966141 },
         { lat: 40.722103, lng: -73.963158 },
@@ -2433,10 +2333,9 @@ var boroughedNeighborhoods = {
         { lat: 40.715908, lng: -73.961868 },
         { lat: 40.718365, lng: -73.966141 }
       ],
-      color : "FFCC99"
+      color : "ffcc99"
     },
-    {
-      name : "East Williamsburg",
+    "east williamsburg" : {
       coords : [
         { lat: 40.714737, lng: -73.941681 },
         { lat: 40.714378, lng: -73.932541 },
@@ -2454,8 +2353,7 @@ var boroughedNeighborhoods = {
       ],
       color : "000099"
     },
-    {
-      name : "Canarsie",
+    "canarsie" : {
       coords : [
         { lat: 40.656487, lng: -73.900177 },
         { lat: 40.656841, lng: -73.898682 },
@@ -2474,10 +2372,9 @@ var boroughedNeighborhoods = {
         { lat: 40.655376, lng: -73.901123 },
         { lat: 40.656487, lng: -73.900177 }
       ],
-      color : "FFCC00"
+      color : "ffcc00"
     },
-    {
-      name : "Flatlands",
+    "flatlands" : {
       coords : [
         { lat: 40.630436, lng: -73.947433 },
         { lat: 40.630695, lng: -73.945328 },
@@ -2494,10 +2391,9 @@ var boroughedNeighborhoods = {
         { lat: 40.629147, lng: -73.947304 },
         { lat: 40.630436, lng: -73.947433 }
       ],
-      color : "FF6600"
+      color : "ff6600"
     },
-    {
-      name : "Marine Park",
+    "marine park" : {
       coords : [
         { lat: 40.617210, lng: -73.944984 },
         { lat: 40.617729, lng: -73.940735 },
@@ -2511,10 +2407,9 @@ var boroughedNeighborhoods = {
         { lat: 40.609211, lng: -73.943527 },
         { lat: 40.617210, lng: -73.944984 }
       ],
-      color : "FFFF99"
+      color : "ffff99"
     },
-    {
-      name : "Bergen Beach",
+    "bergen beach" : {
       coords : [
         { lat: 40.619427, lng: -73.917305 },
         { lat: 40.632030, lng: -73.918678 },
@@ -2601,8 +2496,7 @@ var boroughedNeighborhoods = {
       ],
       color : "009900"
     },
-    {
-      name : "Mill Basin",
+    "mill basin" : {
       coords : [
         { lat: 40.619408, lng: -73.917305 },
         { lat: 40.619736, lng: -73.912926 },
@@ -2645,10 +2539,9 @@ var boroughedNeighborhoods = {
         { lat: 40.616119, lng: -73.916985 },
         { lat: 40.619408, lng: -73.917305 }
       ],
-      color : "FF99FF"
+      color : "ff99ff"
     },
-    {
-      name : "Sea Gate",
+    "sea gate" : {
       coords : [
         { lat: 40.581303, lng: -74.004082 },
         { lat: 40.571426, lng: -74.002357 },
@@ -2663,10 +2556,9 @@ var boroughedNeighborhoods = {
         { lat: 40.581692, lng: -74.005753 },
         { lat: 40.581303, lng: -74.004082 }
       ],
-      color : "FF6666"
+      color : "ff6666"
     },
-    {
-      name : "Coney Island",
+    "coney island" : {
       coords : [
         { lat: 40.581333, lng: -74.003990 },
         { lat: 40.571362, lng: -74.002319 },
@@ -2697,10 +2589,9 @@ var boroughedNeighborhoods = {
         { lat: 40.581303, lng: -74.001289 },
         { lat: 40.581333, lng: -74.003990 }
       ],
-      color : "FFFF99"
+      color : "ffff99"
     },
-    {
-      name : "Brighton Beach",
+    "brighton beach" : {
       coords : [
         { lat: 40.574345, lng: -73.953354 },
         { lat: 40.579281, lng: -73.954338 },
@@ -2724,10 +2615,9 @@ var boroughedNeighborhoods = {
         { lat: 40.574261, lng: -73.954422 },
         { lat: 40.574345, lng: -73.953354 }
       ],
-      color : "FF99FF"
+      color : "ff99ff"
     },
-    {
-      name : "Manhattan Beach",
+    "manhattan beach" : {
       coords : [
         { lat: 40.582722, lng: -73.955887 },
         { lat: 40.582996, lng: -73.953484 },
@@ -2752,8 +2642,7 @@ var boroughedNeighborhoods = {
       ],
       color : "339999"
     },
-    {
-      name : "Gerritsen Beach",
+    "gerritsen beach" : {
       coords : [
         { lat: 40.601704, lng: -73.934853 },
         { lat: 40.602745, lng: -73.933311 },
@@ -2783,10 +2672,9 @@ var boroughedNeighborhoods = {
         { lat: 40.601051, lng: -73.934212 },
         { lat: 40.601704, lng: -73.934853 }
       ],
-      color : "FF99FF"
+      color : "ff99ff"
     },
-    {
-      name : "Ditmas Park",
+    "ditmas park" : {
       coords : [
         { lat: 40.632389, lng: -73.966591 },
         { lat: 40.636379, lng: -73.958328 },
@@ -2794,10 +2682,9 @@ var boroughedNeighborhoods = {
         { lat: 40.648281, lng: -73.971245 },
         { lat: 40.632389, lng: -73.966591 }
       ],
-      color : "FF99FF"
+      color : "ff99ff"
     },
-    {
-      name : "Prospect Park South",
+    "prospect park south" : {
       coords : [
         { lat: 40.649323, lng: -73.963333 },
         { lat: 40.645775, lng: -73.964447 },
@@ -2810,14 +2697,13 @@ var boroughedNeighborhoods = {
       ],
       color : "666666"
     }
-  ],
+  },
 
-  // BREAK: QUEENS
+  // break: queens
 
-  queens : [
-    {
-      name : "Astoria",
-      color : "FF0000",
+  queens : {
+    "astoria" : {
+      color : "ff0000",
       coords : [
         { lat : 40.78264, lng : -73.91987 },
         { lat : 40.78137000000001, lng : -73.92139 },
@@ -2922,9 +2808,8 @@ var boroughedNeighborhoods = {
         { lat : 40.78264, lng : -73.91987 }
       ]
     },
-    {
-      name : "Hunter's Point",
-      color : "66CCFF",
+    "hunter's point" : {
+      color : "66ccff",
       coords : [
         { lat : 40.753792, lng : -73.952114 },
         { lat : 40.751222999999996, lng : -73.95456 },
@@ -2982,8 +2867,7 @@ var boroughedNeighborhoods = {
         { lat : 40.753792, lng : -73.952114 }
       ]
     },
-    {
-      name : "Blissville",
+    "blissville" : {
       color : "006600",
       coords : [
         { lat : 40.738023, lng : -73.944794 },
@@ -3006,8 +2890,7 @@ var boroughedNeighborhoods = {
         { lat : 40.738023, lng : -73.944794 }
       ]
     },
-    {
-      name : "Sunnyside",
+    "sunnyside" : {
       color : "999999",
       coords : [
         { lat: 40.748932, lng: -73.937347 },
@@ -3050,9 +2933,8 @@ var boroughedNeighborhoods = {
         { lat: 40.748932, lng: -73.937347 }
       ]
     },
-    {
-      name : "Sunnyside Park",
-      color : "6666FF",
+    "sunnyside park" : {
+      color : "6666ff",
       coords : [
         { lat : 40.74693, lng : -73.92082 },
         { lat : 40.74656, lng : -73.91753 },
@@ -3092,8 +2974,7 @@ var boroughedNeighborhoods = {
         { lat : 40.74693, lng : -73.92082 }
       ]
     },
-    {
-      name : "Woodside",
+    "woodside" : {
       color : "009900",
       coords : [
         { lat : 40.76648, lng : -73.90301000000001 },
@@ -3136,8 +3017,7 @@ var boroughedNeighborhoods = {
         { lat : 40.76648, lng : -73.90301000000001 }
       ]
     },
-    {
-      name : "Maspeth",
+    "maspeth" : {
       color : "003366",
       coords : [
         { lat : 40.72787000000001, lng : -73.92867 },
@@ -3256,9 +3136,8 @@ var boroughedNeighborhoods = {
         { lat : 40.72787000000001, lng : -73.92867 }
       ]
     },
-    {
-      name : "Ditmars",
-      color : "0066FF",
+    "ditmars" : {
+      color : "0066ff",
       coords : [
         { lat : 40.778559, lng : -73.925507 },
         { lat : 40.774399, lng : -73.922288 },
@@ -3320,8 +3199,7 @@ var boroughedNeighborhoods = {
         { lat : 40.778559, lng : -73.925507 }
       ]
     },
-    {
-      name : "Astoria Heights",
+    "astoria heights" : {
       color : "006666",
       coords : [
         { lat : 40.7659, lng : -73.8931 },
@@ -3334,8 +3212,7 @@ var boroughedNeighborhoods = {
         { lat : 40.7659, lng : -73.8931 }
       ]
     },
-    {
-      name : "Steinway",
+    "steinway" : {
       color : "003300",
       coords : [
         { lat : 40.77023, lng : -73.91641 },
@@ -3392,9 +3269,8 @@ var boroughedNeighborhoods = {
         { lat : 40.77023, lng : -73.91641 }
       ]
     },
-    {
-      name : "Jackson Heights",
-      color : "33FFFF",
+    "jackson heights" : {
+      color : "33ffff",
       coords : [
         { lat : 40.7659, lng : -73.8931 },
         { lat : 40.76562, lng : -73.89408000000002 },
@@ -3424,8 +3300,7 @@ var boroughedNeighborhoods = {
         { lat : 40.7659, lng : -73.8931 }
       ]
     },
-    {
-      name : "Ridgewood",
+    "ridgewood" : {
       color : "333366",
       coords : [
         { lat : 40.70942999999999, lng : -73.92190000000001 },
@@ -3493,9 +3368,8 @@ var boroughedNeighborhoods = {
         { lat : 40.70942999999999, lng : -73.92190000000001 }
       ]
     },
-    {
-      name : "Glendale",
-      color : "FF0000",
+    "glendale" : {
+      color : "ff0000",
       coords : [
         { lat : 40.6918, lng : -73.90164 },
         { lat : 40.688230000000004, lng : -73.90044 },
@@ -3567,9 +3441,8 @@ var boroughedNeighborhoods = {
         { lat : 40.6918, lng : -73.90164 }
       ]
     },
-    {
-      name : "Middle Village",
-      color : "0099FF",
+    "middle village" : {
+      color : "0099ff",
       coords : [
         { lat : 40.71486000000001, lng : -73.88713 },
         { lat : 40.71221, lng : -73.88634 },
@@ -3607,9 +3480,8 @@ var boroughedNeighborhoods = {
         { lat : 40.71486000000001, lng : -73.88713 }
       ]
     },
-    {
-      name : "Elmhurst",
-      color : "CC33CC",
+    "elmhurst" : {
+      color : "cc33cc",
       coords : [
         { lat : 40.727568, lng : -73.886837 },
         { lat : 40.727827999999995, lng : -73.886257 },
@@ -3645,8 +3517,7 @@ var boroughedNeighborhoods = {
         { lat : 40.727568, lng : -73.886837 }
       ]
     },
-    {
-      name : "Rego Park",
+    "rego park" : {
       color : "006600",
       coords : [
         { lat : 40.72934, lng : -73.871433 },
@@ -3691,8 +3562,7 @@ var boroughedNeighborhoods = {
         { lat : 40.72934, lng : -73.871433 }
       ]
     },
-    {
-      name : "Forest Hills",
+    "forest hills" : {
       color : "000099",
       coords : [
         { lat : 40.711809, lng : -73.859546 },
@@ -3757,8 +3627,7 @@ var boroughedNeighborhoods = {
         { lat : 40.711809, lng : -73.859546 }
       ]
     },
-    {
-      name : "Corona",
+    "corona" : {
       color : "333333",
       coords : [
         { lat : 40.74768, lng : -73.868533 },
@@ -3777,9 +3646,8 @@ var boroughedNeighborhoods = {
         { lat : 40.74768, lng : -73.868533 }
       ]
     },
-    {
-      name : "East Elmhurst",
-      color : "FF0000",
+    "east elmhurst" : {
+      color : "ff0000",
       coords : [
         { lat : 40.77385, lng : -73.89287 },
         { lat : 40.76724000000001, lng : -73.90092 },
@@ -3858,9 +3726,8 @@ var boroughedNeighborhoods = {
         { lat : 40.77385, lng : -73.89287 }
       ]
     },
-    {
-      name : "North Corona",
-      color : "0099FF",
+    "north corona" : {
+      color : "0099ff",
       coords : [
         { lat : 40.756781999999994, lng : -73.873665 },
         { lat : 40.75155, lng : -73.87081 },
@@ -3875,9 +3742,8 @@ var boroughedNeighborhoods = {
         { lat : 40.756781999999994, lng : -73.873665 }
       ]
     },
-    {
-      name : "Willets Point",
-      color : "00CC33",
+    "willets point" : {
+      color : "00cc33",
       coords : [
         { lat : 40.764795, lng : -73.842394 },
         { lat : 40.764356, lng : -73.842866 },
@@ -3908,9 +3774,8 @@ var boroughedNeighborhoods = {
         { lat : 40.764795, lng : -73.842394 }
       ]
     },
-    {
-      name : "College Point",
-      color : "CCCC00",
+    "college point" : {
+      color : "cccc00",
       coords : [
         { lat : 40.77546523765736, lng : -73.84880048603225 },
         { lat : 40.77542, lng : -73.84877 },
@@ -4255,9 +4120,8 @@ var boroughedNeighborhoods = {
         { lat : 40.77546523765736, lng : -73.84880048603225 }
       ]
     },
-    {
-      name : "Malba",
-      color : "3399CC",
+    "malba" : {
+      color : "3399cc",
       coords : [
         { lat : 40.78462, lng : -73.83063 },
         { lat : 40.7846, lng : -73.82686 },
@@ -4301,8 +4165,7 @@ var boroughedNeighborhoods = {
         { lat : 40.78462, lng : -73.83063 }
       ]
     },
-    {
-      name : "Flushing",
+    "flushing" : {
       color : "663366",
       coords : [
         { lat : 40.78167, lng : -73.83869 },
@@ -4360,9 +4223,8 @@ var boroughedNeighborhoods = {
         { lat : 40.78167, lng : -73.83869 }
       ]
     },
-    {
-      name : "Whitestone",
-      color : "00CC33",
+    "whitestone" : {
+      color : "00cc33",
       coords : [
         { lat : 40.788160999999995, lng : -73.831304 },
         { lat : 40.784636, lng : -73.830639 },
@@ -4471,9 +4333,8 @@ var boroughedNeighborhoods = {
         { lat : 40.788160999999995, lng : -73.831304 }
       ]
     },
-    {
-      name : "Kew Gardens",
-      color : "CCCC66",
+    "kew gardens" : {
+      color : "cccc66",
       coords : [
         { lat : 40.711906, lng : -73.836071 },
         { lat : 40.710052, lng : -73.83414 },
@@ -4503,8 +4364,7 @@ var boroughedNeighborhoods = {
         { lat : 40.711906, lng : -73.836071 }
       ]
     },
-    {
-      name : "Beechhurst",
+    "beechhurst" : {
       color : "336699",
       coords : [
         { lat : 40.785936, lng : -73.79974 },
@@ -4544,9 +4404,8 @@ var boroughedNeighborhoods = {
         { lat : 40.785936, lng : -73.79974 }
       ]
     },
-    {
-      name : "Bayside",
-      color : "CCCCCC",
+    "bayside" : {
+      color : "cccccc",
       coords : [
         { lat : 40.7670758906685, lng : -73.79033837907538 },
         { lat : 40.766957, lng : -73.790237 },
@@ -4686,9 +4545,8 @@ var boroughedNeighborhoods = {
         { lat : 40.7670758906685, lng : -73.79033837907538 }
       ]
     },
-    {
-      name : "Bay Terrace",
-      color : "FF6633",
+    "bay terrace" : {
+      color : "ff6633",
       coords : [
         { lat : 40.788259, lng : -73.790556 },
         { lat : 40.78663399999999, lng : -73.78841 },
@@ -4739,9 +4597,8 @@ var boroughedNeighborhoods = {
         { lat : 40.788259, lng : -73.790556 }
       ]
     },
-    {
-      name : "Murray Hill",
-      color : "CC6666",
+    "murray hill" : {
+      color : "cc6666",
       coords : [
         { lat : 40.76461, lng : -73.82351 },
         { lat : 40.758860000000006, lng : -73.82072 },
@@ -4770,8 +4627,7 @@ var boroughedNeighborhoods = {
         { lat : 40.76461, lng : -73.82351 }
       ]
     },
-    {
-      name : "Auburndale",
+    "auburndale" : {
       color : "336699",
       coords : [
         { lat : 40.772644, lng : -73.795216 },
@@ -4806,9 +4662,8 @@ var boroughedNeighborhoods = {
         { lat : 40.772644, lng : -73.795216 }
       ]
     },
-    {
-      name : "Queensboro Hill",
-      color : "FFCC33",
+    "queensboro hill" : {
+      color : "ffcc33",
       coords : [
         { lat : 40.739974000000004, lng : -73.797276 },
         { lat : 40.741502000000004, lng : -73.797276 },
@@ -4872,8 +4727,7 @@ var boroughedNeighborhoods = {
         { lat : 40.739974000000004, lng : -73.797276 }
       ]
     },
-    {
-      name : "Fresh Meadows",
+    "fresh meadows" : {
       color : "663366",
       coords : [
         { lat : 40.740331, lng : -73.788478 },
@@ -4893,9 +4747,8 @@ var boroughedNeighborhoods = {
         { lat : 40.740331, lng : -73.788478 }
       ]
     },
-    {
-      name : "Utopia",
-      color : "33FFFF",
+    "utopia" : {
+      color : "33ffff",
       coords : [
         { lat : 40.738283, lng : -73.79616 },
         { lat : 40.73812, lng : -73.798005 },
@@ -4914,9 +4767,8 @@ var boroughedNeighborhoods = {
         { lat : 40.738283, lng : -73.79616 }
       ]
     },
-    {
-      name : "Pomonok",
-      color : "6666FF",
+    "pomonok" : {
+      color : "6666ff",
       coords : [
         { lat : 40.73912, lng : -73.815958 },
         { lat : 40.738763, lng : -73.816119 },
@@ -4935,9 +4787,8 @@ var boroughedNeighborhoods = {
         { lat : 40.73912, lng : -73.815958 }
       ]
     },
-    {
-      name : "Hillcrest",
-      color : "FF0000",
+    "hillcrest" : {
+      color : "ff0000",
       coords : [
         { lat : 40.729275, lng : -73.802511 },
         { lat : 40.728104, lng : -73.802125 },
@@ -4961,9 +4812,8 @@ var boroughedNeighborhoods = {
         { lat : 40.729275, lng : -73.802511 }
       ]
     },
-    {
-      name : "Briarwood",
-      color : "0099FF",
+    "briarwood" : {
+      color : "0099ff",
       coords : [
         { lat : 40.715891000000006, lng : -73.817829 },
         { lat : 40.716038, lng : -73.818301 },
@@ -4989,8 +4839,7 @@ var boroughedNeighborhoods = {
         { lat : 40.715891000000006, lng : -73.817829 }
       ]
     },
-    {
-      name : "Jamaica Hills",
+    "jamaica hills" : {
       color : "999999",
       coords : [
         { lat : 40.715842, lng : -73.807833 },
@@ -5019,8 +4868,7 @@ var boroughedNeighborhoods = {
         { lat : 40.715842, lng : -73.807833 }
       ]
     },
-    {
-      name : "Jamaica Estates",
+    "jamaica estates" : {
       color : "006600",
       coords : [
         { lat : 40.723649, lng : -73.79040900000001 },
@@ -5061,8 +4909,7 @@ var boroughedNeighborhoods = {
         { lat : 40.723649, lng : -73.79040900000001 }
       ]
     },
-    {
-      name : "Jamaica",
+    "jamaica" : {
       color : "660000",
       coords : [
         { lat : 40.698177, lng : -73.814313 },
@@ -5096,9 +4943,8 @@ var boroughedNeighborhoods = {
         { lat : 40.698177, lng : -73.814313 }
       ]
     },
-    {
-      name : "Richmond Hill",
-      color : "0000CC",
+    "richmond hill" : {
+      color : "0000cc",
       coords : [
         { lat : 40.697469999999996, lng : -73.8489 },
         { lat : 40.69474, lng : -73.84769 },
@@ -5138,9 +4984,8 @@ var boroughedNeighborhoods = {
         { lat : 40.697469999999996, lng : -73.8489 }
       ]
     },
-    {
-      name : "South Ozone Park",
-      color : "33CCFF",
+    "south ozone park" : {
+      color : "33ccff",
       coords : [
         { lat : 40.69189, lng : -73.8107 },
         { lat : 40.69142, lng : -73.81267 },
@@ -5187,9 +5032,8 @@ var boroughedNeighborhoods = {
         { lat : 40.69189, lng : -73.8107 }
       ]
     },
-    {
-      name : "Ozone Park",
-      color : "CC6666",
+    "ozone park" : {
+      color : "cc6666",
       coords : [
         { lat : 40.688188, lng : -73.848817 },
         { lat : 40.683144000000006, lng : -73.866191 },
@@ -5215,9 +5059,8 @@ var boroughedNeighborhoods = {
         { lat : 40.688188, lng : -73.848817 }
       ]
     },
-    {
-      name : "Woodhaven",
-      color : "CC33CC",
+    "woodhaven" : {
+      color : "cc33cc",
       coords : [
         { lat : 40.694114, lng : -73.868187 },
         { lat : 40.69394400000001, lng : -73.868638 },
@@ -5245,8 +5088,7 @@ var boroughedNeighborhoods = {
         { lat : 40.694114, lng : -73.868187 }
       ]
     },
-    {
-      name : "Lindenwood",
+    "lindenwood" : {
       color : "666633",
       coords : [
         { lat : 40.67403099999999, lng : -73.861048 },
@@ -5269,8 +5111,7 @@ var boroughedNeighborhoods = {
         { lat : 40.67403099999999, lng : -73.861048 }
       ]
     },
-    {
-      name : "Howard Beach",
+    "howard beach" : {
       color : "009900",
       coords : [
         { lat : 40.66273, lng : -73.84913 },
@@ -5369,9 +5210,8 @@ var boroughedNeighborhoods = {
         { lat : 40.66273, lng : -73.84913 }
       ]
     },
-    {
-      name : "Hamilton Beach",
-      color : "0066CC",
+    "hamilton beach" : {
+      color : "0066cc",
       coords : [
         { lat : 40.654027, lng : -73.832034 },
         { lat : 40.653311, lng : -73.831326 },
@@ -5392,8 +5232,7 @@ var boroughedNeighborhoods = {
         { lat : 40.654027, lng : -73.832034 }
       ]
     },
-    {
-      name : "Hollis",
+    "hollis" : {
       color : "333333",
       coords : [
         { lat : 40.710866, lng : -73.770711 },
@@ -5419,8 +5258,7 @@ var boroughedNeighborhoods = {
         { lat : 40.710866, lng : -73.770711 }
       ]
     },
-    {
-      name : "South Jamaica",
+    "south jamaica" : {
       color : "999999",
       coords : [
         { lat : 40.674380000000006, lng : -73.80169 },
@@ -5444,8 +5282,7 @@ var boroughedNeighborhoods = {
         { lat : 40.674380000000006, lng : -73.80169 }
       ]
     },
-    {
-      name : "St. Albans",
+    "st. albans" : {
       color : "006666",
       coords : [
         { lat : 40.688383, lng : -73.776762 },
@@ -5487,8 +5324,7 @@ var boroughedNeighborhoods = {
         { lat : 40.688383, lng : -73.776762 }
       ]
     },
-    {
-      name : "Laurelton",
+    "laurelton" : {
       color : "993399",
       coords : [
         { lat : 40.665763, lng : -73.74655 },
@@ -5513,9 +5349,8 @@ var boroughedNeighborhoods = {
         { lat : 40.665763, lng : -73.74655 }
       ]
     },
-    {
-      name : "Springfield Gardens",
-      color : "00CC33",
+    "springfield gardens" : {
+      color : "00cc33",
       coords : [
         { lat : 40.666414, lng : -73.789293 },
         { lat : 40.665535, lng : -73.789637 },
@@ -5536,9 +5371,8 @@ var boroughedNeighborhoods = {
         { lat : 40.666414, lng : -73.789293 }
       ]
     },
-    {
-      name : "Rochdale",
-      color : "FFCC33",
+    "rochdale" : {
+      color : "ffcc33",
       coords : [
         { lat : 40.679629, lng : -73.777148 },
         { lat : 40.679076, lng : -73.778436 },
@@ -5560,9 +5394,8 @@ var boroughedNeighborhoods = {
         { lat : 40.679629, lng : -73.777148 }
       ]
     },
-    {
-      name : "Oakland Gardens",
-      color : "FFCC33",
+    "oakland gardens" : {
+      color : "ffcc33",
       coords : [
         { lat : 40.745956, lng : -73.767799 },
         { lat : 40.744201, lng : -73.766941 },
@@ -5595,8 +5428,7 @@ var boroughedNeighborhoods = {
         { lat : 40.745956, lng : -73.767799 }
       ]
     },
-    {
-      name : "Hollis Hills",
+    "hollis hills" : {
       color : "003399",
       coords : [
         { lat : 40.73548600000001, lng : -73.762564 },
@@ -5616,9 +5448,8 @@ var boroughedNeighborhoods = {
         { lat : 40.73548600000001, lng : -73.762564 }
       ]
     },
-    {
-      name : "Queens Village",
-      color : "0099FF",
+    "queens village" : {
+      color : "0099ff",
       coords : [
         { lat : 40.713826, lng : -73.754017 },
         { lat : 40.704945, lng : -73.750155 },
@@ -5648,9 +5479,8 @@ var boroughedNeighborhoods = {
         { lat : 40.713826, lng : -73.754017 }
       ]
     },
-    {
-      name : "Cambria Heights",
-      color : "00CC33",
+    "cambria heights" : {
+      color : "00cc33",
       coords : [
         { lat : 40.693134, lng : -73.744833 },
         { lat : 40.689815, lng : -73.747279 },
@@ -5669,8 +5499,7 @@ var boroughedNeighborhoods = {
         { lat : 40.693134, lng : -73.744833 }
       ]
     },
-    {
-      name : "Brookville",
+    "brookville" : {
       color : "999999",
       coords : [
         { lat : 40.665926000000006, lng : -73.757965 },
@@ -5694,9 +5523,8 @@ var boroughedNeighborhoods = {
         { lat : 40.665926000000006, lng : -73.757965 }
       ]
     },
-    {
-      name : "Rosedale",
-      color : "FFFF33",
+    "rosedale" : {
+      color : "ffff33",
       coords : [
         { lat : 40.679889, lng : -73.728911 },
         { lat : 40.678653, lng : -73.729898 },
@@ -5763,9 +5591,8 @@ var boroughedNeighborhoods = {
         { lat : 40.679889, lng : -73.728911 }
       ]
     },
-    {
-      name : "Little Neck",
-      color : "6666FF",
+    "little neck" : {
+      color : "6666ff",
       coords : [
         { lat : 40.76375, lng : -73.75002 },
         { lat : 40.763, lng : -73.74925 },
@@ -5834,9 +5661,8 @@ var boroughedNeighborhoods = {
         { lat : 40.76375, lng : -73.75002 }
       ]
     },
-    {
-      name : "Glen Oaks",
-      color : "CCCC00",
+    "glen oaks" : {
+      color : "cccc00",
       coords : [
         { lat : 40.759383, lng : -73.71749600000001 },
         { lat : 40.758115, lng : -73.720157 },
@@ -5855,8 +5681,7 @@ var boroughedNeighborhoods = {
         { lat : 40.759383, lng : -73.71749600000001 }
       ]
     },
-    {
-      name : "Bellerose",
+    "bellerose" : {
       color : "993399",
       coords : [
         { lat : 40.731617, lng : -73.746678 },
@@ -5885,8 +5710,7 @@ var boroughedNeighborhoods = {
         { lat : 40.731617, lng : -73.746678 }
       ]
     },
-    {
-      name : "Floral Park",
+    "floral park" : {
       color : "009900",
       coords : [
         { lat : 40.727194, lng : -73.710501 },
@@ -5900,9 +5724,8 @@ var boroughedNeighborhoods = {
         { lat : 40.727194, lng : -73.710501 }
       ]
     },
-    {
-      name : "Broad Channel",
-      color : "0000FF",
+    "broad channel" : {
+      color : "0000ff",
       coords : [
         { lat : 40.6137244, lng : -73.8216019 },
         { lat : 40.61297509999999, lng : -73.8210225 },
@@ -5989,9 +5812,8 @@ var boroughedNeighborhoods = {
         { lat : 40.6137244, lng : -73.8216019 }
       ]
     },
-    {
-      name : "Far Rockaway",
-      color : "DB4436",
+    "far rockaway" : {
+      color : "db4436",
       coords : [
         { lat : 40.610466499999994, lng : -73.7545681 },
         { lat : 40.6102711, lng : -73.7546432 },
@@ -6099,9 +5921,8 @@ var boroughedNeighborhoods = {
         { lat : 40.610466499999994, lng : -73.7545681 }
       ]
     },
-    {
-      name : "Polygon 66",
-      color : "0BA9CC",
+    "polygon 66" : {
+      color : "0ba9cc",
       coords : [
         { lat : 40.5994538, lng : -73.7665844 },
         { lat : 40.6013111, lng : -73.7625718 },
@@ -6188,9 +6009,8 @@ var boroughedNeighborhoods = {
         { lat : 40.5994538, lng : -73.7665844 }
       ]
     },
-    {
-      name : "Edgemere",
-      color : "B29189",
+    "edgemere" : {
+      color : "b29189",
       coords : [
         { lat : 40.5878201, lng : -73.7885785 },
         { lat : 40.58809709999999, lng : -73.7873554 },
@@ -6330,9 +6150,8 @@ var boroughedNeighborhoods = {
         { lat : 40.5878201, lng : -73.7885785 }
       ]
     },
-    {
-      name : "Arverne",
-      color : "A7B5D7",
+    "arverne" : {
+      color : "a7b5d7",
       coords : [
         { lat : 40.5855917, lng : -73.8003803 },
         { lat : 40.585881, lng : -73.7991571 },
@@ -6409,9 +6228,8 @@ var boroughedNeighborhoods = {
         { lat : 40.5855917, lng : -73.8003803 }
       ]
     },
-    {
-      name : "Hammels",
-      color : "62AF44",
+    "hammels" : {
+      color : "62af44",
       coords : [
         { lat : 40.5879831, lng : -73.81915570000001 },
         { lat : 40.5876735, lng : -73.8190269 },
@@ -6486,9 +6304,8 @@ var boroughedNeighborhoods = {
         { lat : 40.5879831, lng : -73.81915570000001 }
       ]
     },
-    {
-      name : "Seaside",
-      color : "F8971B",
+    "seaside" : {
+      color : "f8971b",
       coords : [
         { lat : 40.5875431, lng : -73.822825 },
         { lat : 40.5875431, lng : -73.8232327 },
@@ -6516,9 +6333,8 @@ var boroughedNeighborhoods = {
         { lat : 40.5875431, lng : -73.822825 }
       ]
     },
-    {
-      name : "Belle Harbor",
-      color : "0BA9CC",
+    "belle harbor" : {
+      color : "0ba9cc",
       coords : [
         { lat : 40.582198, lng : -73.8485312 },
         { lat : 40.5821003, lng : -73.8505912 },
@@ -6532,8 +6348,7 @@ var boroughedNeighborhoods = {
         { lat : 40.582198, lng : -73.8485312 }
       ]
     },
-    {
-      name : "Belle Harbor",
+    "belle harbor" : {
       color : "777777",
       coords : [
         { lat : 40.5815951, lng : -73.8451838 },
@@ -6552,9 +6367,8 @@ var boroughedNeighborhoods = {
         { lat : 40.5815951, lng : -73.8451838 }
       ]
     },
-    {
-      name : "Neponsit",
-      color : "D698AD",
+    "neponsit" : {
+      color : "d698ad",
       coords : [
         { lat : 40.5673666, lng : -73.8624787 },
         { lat : 40.5676926, lng : -73.860805 },
@@ -6571,9 +6385,8 @@ var boroughedNeighborhoods = {
         { lat : 40.5673666, lng : -73.8624787 }
       ]
     },
-    {
-      name : "Roxbury",
-      color : "009D57",
+    "roxbury" : {
+      color : "009d57",
       coords : [
         { lat : 40.5675948, lng : -73.8827133 },
         { lat : 40.5683609, lng : -73.88312100000002 },
@@ -6604,9 +6417,8 @@ var boroughedNeighborhoods = {
         { lat : 40.5675948, lng : -73.8827133 }
       ]
     },
-    {
-      name : "Breezy Point",
-      color : "3F5BA9",
+    "breezy point" : {
+      color : "3f5ba9",
       coords : [
         { lat : 40.5650682, lng : -73.9113808 },
         { lat : 40.5630143, lng : -73.916316 },
@@ -6637,13 +6449,12 @@ var boroughedNeighborhoods = {
         { lat : 40.5650682, lng : -73.9113808 }
       ]
     }
-  ],
+  },
 
-  // BREAK: BRONX
+  // break: bronx
 
-  bronx : [
-    {
-      name : "Port Morris",
+  bronx : {
+    "port morris" : {
       coords : [
         { lat: 40.8094243, lng: -73.9029694 },
         { lat: 40.8071424, lng: -73.9062524 },
@@ -6736,8 +6547,7 @@ var boroughedNeighborhoods = {
       ],
       color : "93d7e8"
     },
-    {
-      name : "Mott Haven",
+    "mott haven" : {
       coords : [
         { lat: 40.8094243, lng: -73.9029694 },
         { lat: 40.811292, lng: -73.9033341 },
@@ -6842,10 +6652,9 @@ var boroughedNeighborhoods = {
         { lat: 40.80494160000001, lng: -73.902154 },
         { lat: 40.8094243, lng: -73.9029694 }
       ],
-      color : "EE9C96"
+      color : "ee9c96"
     },
-    {
-      name : "Melrose",
+    "melrose" : {
       coords : [
         { lat: 40.81229080000001, lng: -73.9044499 },
         { lat: 40.820467300000004, lng: -73.90125270000001 },
@@ -6864,8 +6673,7 @@ var boroughedNeighborhoods = {
       ],
       color : "000000"
     },
-    {
-      name : "Highbridge",
+    "highbridge" : {
       coords : [
         { lat: 40.8281638, lng: -73.933053 },
         { lat: 40.8284398, lng: -73.9304566 },
@@ -6895,10 +6703,9 @@ var boroughedNeighborhoods = {
         { lat: 40.8305018, lng: -73.933332 },
         { lat: 40.8281638, lng: -73.933053 }
       ],
-      color : "3F5BA9"
+      color : "3f5ba9"
     },
-    {
-      name : "Hunts Point",
+    "hunts point" : {
       coords : [
         { lat: 40.8133221, lng: -73.8717486 },
         { lat: 40.8140528, lng: -73.8729502 },
@@ -6986,10 +6793,9 @@ var boroughedNeighborhoods = {
         { lat: 40.8067118, lng: -73.868251 },
         { lat: 40.8133221, lng: -73.8717486 }
       ],
-      color : "F8971B"
+      color : "f8971b"
     },
-    {
-      name : "Longwood",
+    "longwood" : {
       coords : [
         { lat: 40.82676750000001, lng: -73.8879061 },
         { lat: 40.8268486, lng: -73.8928199 },
@@ -7017,10 +6823,9 @@ var boroughedNeighborhoods = {
         { lat: 40.8281476, lng: -73.8852668 },
         { lat: 40.82676750000001, lng: -73.8879061 }
       ],
-      color : "62AF44"
+      color : "62af44"
     },
-    {
-      name : "Morrisania",
+    "morrisania" : {
       coords : [
         { lat: 40.8446093, lng: -73.9027333 },
         { lat: 40.8397069, lng: -73.9053726 },
@@ -7041,10 +6846,9 @@ var boroughedNeighborhoods = {
         { lat: 40.843911299999995, lng: -73.8963389 },
         { lat: 40.8446093, lng: -73.9027333 }
       ],
-      color : "0BA9CC"
+      color : "0ba9cc"
     },
-    {
-      name : "Foxhurst",
+    "foxhurst" : {
       coords : [
         { lat: 40.8354373, lng: -73.8951373 },
         { lat: 40.8349665, lng: -73.8956308 },
@@ -7067,8 +6871,7 @@ var boroughedNeighborhoods = {
       ],
       color : "000000"
     },
-    {
-      name : "Crotona Park",
+    "crotona park" : {
       coords : [
         { lat: 40.8393011, lng: -73.8865972 },
         { lat: 40.838181, lng: -73.8872194 },
@@ -7110,10 +6913,9 @@ var boroughedNeighborhoods = {
         { lat: 40.8400965, lng: -73.8861465 },
         { lat: 40.8393011, lng: -73.8865972 }
       ],
-      color : "FFDD5E"
+      color : "ffdd5e"
     },
-    {
-      name : "Morris Heights",
+    "morris heights" : {
       coords : [
         { lat: 40.8561496, lng: -73.9177966 },
         { lat: 40.857878, lng: -73.9170992 },
@@ -7167,10 +6969,9 @@ var boroughedNeighborhoods = {
         { lat: 40.8558412, lng: -73.9169598 },
         { lat: 40.8561496, lng: -73.9177966 }
       ],
-      color : "DB4436"
+      color : "db4436"
     },
-    {
-      name : "University Heights",
+    "university heights" : {
       coords : [
         { lat: 40.8590221, lng: -73.9171529 },
         { lat: 40.8588193, lng: -73.9175498 },
@@ -7213,8 +7014,7 @@ var boroughedNeighborhoods = {
       ],
       color : "000000"
     },
-    {
-      name : "Mount Hope",
+    "mount hope" : {
       coords : [
         { lat: 40.8524004, lng: -73.9036345 },
         { lat: 40.8538936, lng: -73.9073253 },
@@ -7228,10 +7028,9 @@ var boroughedNeighborhoods = {
         { lat: 40.850469000000004, lng: -73.9009094 },
         { lat: 40.8524004, lng: -73.9036345 }
       ],
-      color : "62AF44"
+      color : "62af44"
     },
-    {
-      name : "Tremont",
+    "tremont" : {
       coords : [
         { lat: 40.8562794, lng: -73.895545 },
         { lat: 40.84921919999999, lng: -73.9000726 },
@@ -7253,8 +7052,7 @@ var boroughedNeighborhoods = {
       ],
       color : "795046"
     },
-    {
-      name : "Fordham Heights",
+    "fordham heights" : {
       coords : [
         { lat: 40.862494999999996, lng: -73.8968754 },
         { lat: 40.8621867, lng: -73.8994288 },
@@ -7275,10 +7073,9 @@ var boroughedNeighborhoods = {
         { lat: 40.8620893, lng: -73.894794 },
         { lat: 40.862494999999996, lng: -73.8968754 }
       ],
-      color : "9FC3FF"
+      color : "9fc3ff"
     },
-    {
-      name : "West Farms",
+    "west farms" : {
       coords : [
         { lat: 40.8483264, lng: -73.8831639 },
         { lat: 40.85110199999999, lng: -73.8822842 },
@@ -7300,10 +7097,9 @@ var boroughedNeighborhoods = {
         { lat: 40.8479044, lng: -73.8828421 },
         { lat: 40.8483264, lng: -73.8831639 }
       ],
-      color : "009D57"
+      color : "009d57"
     },
-    {
-      name : "Belmont",
+    "belmont" : {
       coords : [
         { lat: 40.8600608, lng: -73.8911247 },
         { lat: 40.85757770000001, lng: -73.8911033 },
@@ -7322,10 +7118,9 @@ var boroughedNeighborhoods = {
         { lat: 40.8605476, lng: -73.892498 },
         { lat: 40.8600608, lng: -73.8911247 }
       ],
-      color : "B7DBAB"
+      color : "b7dbab"
     },
-    {
-      name : "West Concourse",
+    "west concourse" : {
       coords : [
         { lat: 40.8200694, lng: -73.9321518 },
         { lat: 40.8198015, lng: -73.9323556 },
@@ -7374,10 +7169,9 @@ var boroughedNeighborhoods = {
         { lat: 40.8205322, lng: -73.9323556 },
         { lat: 40.8200694, lng: -73.9321518 }
       ],
-      color : "F4B400"
+      color : "f4b400"
     },
-    {
-      name : "Concourse Village",
+    "concourse village" : {
       coords : [
         { lat: 40.8451612, lng: -73.9110053 },
         { lat: 40.844666100000005, lng: -73.91137 },
@@ -7400,10 +7194,9 @@ var boroughedNeighborhoods = {
         { lat: 40.8446093, lng: -73.9027333 },
         { lat: 40.8451612, lng: -73.9110053 }
       ],
-      color : "B29189"
+      color : "b29189"
     },
-    {
-      name : "Kingsbridge Heights",
+    "kingsbridge heights" : {
       coords : [
         { lat: 40.8630792, lng: -73.9127326 },
         { lat: 40.8622354, lng: -73.9105654 },
@@ -7442,10 +7235,9 @@ var boroughedNeighborhoods = {
         { lat: 40.8636797, lng: -73.9123034 },
         { lat: 40.8630792, lng: -73.9127326 }
       ],
-      color : "F8971B"
+      color : "f8971b"
     },
-    {
-      name : "Bedford Park",
+    "bedford park" : {
       coords : [
         { lat: 40.8829068, lng: -73.8866186 },
         { lat: 40.8829879, lng: -73.8879061 },
@@ -7467,10 +7259,9 @@ var boroughedNeighborhoods = {
         { lat: 40.88065170000001, lng: -73.8856316 },
         { lat: 40.8829068, lng: -73.8866186 }
       ],
-      color : "7C3592"
+      color : "7c3592"
     },
-    {
-      name : "Fordham North",
+    "fordham north" : {
       coords : [
         { lat: 40.8654485, lng: -73.8867903 },
         { lat: 40.8659515, lng: -73.8859105 },
@@ -7487,10 +7278,9 @@ var boroughedNeighborhoods = {
         { lat: 40.862706, lng: -73.8900089 },
         { lat: 40.8654485, lng: -73.8867903 }
       ],
-      color : "0BA9CC"
+      color : "0ba9cc"
     },
-    {
-      name : "Norwood",
+    "norwood" : {
       coords : [
         { lat: 40.8871408, lng: -73.8780141 },
         { lat: 40.8827283, lng: -73.8812542 },
@@ -7514,8 +7304,7 @@ var boroughedNeighborhoods = {
       ],
       color : "777777"
     },
-    {
-      name : "Kingsbridge",
+    "kingsbridge" : {
       coords : [
         { lat: 40.8735292, lng: -73.9071536 },
         { lat: 40.87330200000001, lng: -73.9060378 },
@@ -7547,10 +7336,9 @@ var boroughedNeighborhoods = {
         { lat: 40.8760765, lng: -73.9071751 },
         { lat: 40.8735292, lng: -73.9071536 }
       ],
-      color : "009D57"
+      color : "009d57"
     },
-    {
-      name : "Spuyten Duyvil",
+    "spuyten duyvil" : {
       coords : [
         { lat: 40.8862324, lng: -73.9211011 },
         { lat: 40.88092749999999, lng: -73.9235044 },
@@ -7581,10 +7369,9 @@ var boroughedNeighborhoods = {
         { lat: 40.88347460000001, lng: -73.9101577 },
         { lat: 40.8862324, lng: -73.9211011 }
       ],
-      color : "B29189"
+      color : "b29189"
     },
-    {
-      name : "Riverdale",
+    "riverdale" : {
       coords : [
         { lat: 40.889055, lng: -73.9080548 },
         { lat: 40.889931, lng: -73.908248 },
@@ -7622,10 +7409,9 @@ var boroughedNeighborhoods = {
         { lat: 40.88738420000001, lng: -73.9071536 },
         { lat: 40.889055, lng: -73.9080548 }
       ],
-      color : "3F5BA9"
+      color : "3f5ba9"
     },
-    {
-      name : "Fieldston",
+    "fieldston" : {
       coords : [
         { lat: 40.9012363, lng: -73.9028192 },
         { lat: 40.900993, lng: -73.9045894 },
@@ -7662,10 +7448,9 @@ var boroughedNeighborhoods = {
         { lat: 40.9012038, lng: -73.9013171 },
         { lat: 40.9012363, lng: -73.9028192 }
       ],
-      color : "B7DBAB"
+      color : "b7dbab"
     },
-    {
-      name : "North Riverdale",
+    "north riverdale" : {
       coords : [
         { lat: 40.9113397, lng: -73.8966179 },
         { lat: 40.9154584, lng: -73.91039370000001 },
@@ -7693,8 +7478,7 @@ var boroughedNeighborhoods = {
       ],
       color : "777777"
     },
-    {
-      name : "Soundview",
+    "soundview" : {
       coords : [
         { lat: 40.8301933, lng: -73.8840437 },
         { lat: 40.82986859999999, lng: -73.8837862 },
@@ -7731,10 +7515,9 @@ var boroughedNeighborhoods = {
         { lat: 40.830924, lng: -73.883636 },
         { lat: 40.8301933, lng: -73.8840437 }
       ],
-      color : "3F5BA9"
+      color : "3f5ba9"
     },
-    {
-      name : "Clason Point",
+    "clason point" : {
       coords : [
         { lat: 40.8189571, lng: -73.8814259 },
         { lat: 40.8171221, lng: -73.8786364 },
@@ -7780,8 +7563,7 @@ var boroughedNeighborhoods = {
       ],
       color : "000000"
     },
-    {
-      name : "Parkchester",
+    "parkchester" : {
       coords : [
         { lat: 40.841103, lng: -73.8645172 },
         { lat: 40.8399991, lng: -73.8639164 },
@@ -7798,10 +7580,9 @@ var boroughedNeighborhoods = {
         { lat: 40.841314, lng: -73.86338 },
         { lat: 40.841103, lng: -73.8645172 }
       ],
-      color : "A61B4A"
+      color : "a61b4a"
     },
-    {
-      name : "Van Nest",
+    "van nest" : {
       coords : [
         { lat: 40.8520352, lng: -73.8686264 },
         { lat: 40.8518891, lng: -73.86864780000002 },
@@ -7835,10 +7616,9 @@ var boroughedNeighborhoods = {
         { lat: 40.8505501, lng: -73.8661695 },
         { lat: 40.8520352, lng: -73.8686264 }
       ],
-      color : "93D7E8"
+      color : "93d7e8"
     },
-    {
-      name : "Castle Hill",
+    "castle hill" : {
       coords : [
         { lat: 40.8105287, lng: -73.8469756 },
         { lat: 40.8106992, lng: -73.8461602 },
@@ -7917,10 +7697,9 @@ var boroughedNeighborhoods = {
         { lat: 40.8106667, lng: -73.8473618 },
         { lat: 40.8105287, lng: -73.8469756 }
       ],
-      color : "B7DBAB"
+      color : "b7dbab"
     },
-    {
-      name : "Unionport",
+    "unionport" : {
       coords : [
         { lat: 40.8277254, lng: -73.8424373 },
         { lat: 40.8291705, lng: -73.8429308 },
@@ -7946,10 +7725,9 @@ var boroughedNeighborhoods = {
         { lat: 40.82431569999999, lng: -73.8409352 },
         { lat: 40.8277254, lng: -73.8424373 }
       ],
-      color : "EE9C96"
+      color : "ee9c96"
     },
-    {
-      name : "Westchester Square",
+    "westchester square" : {
       coords : [
         { lat: 40.8424504, lng: -73.8533378 },
         { lat: 40.8350802, lng: -73.8519859 },
@@ -7966,10 +7744,9 @@ var boroughedNeighborhoods = {
         { lat: 40.8430672, lng: -73.8480592 },
         { lat: 40.8424504, lng: -73.8533378 }
       ],
-      color : "009D57"
+      color : "009d57"
     },
-    {
-      name : "Morris Park",
+    "morris park" : {
       coords : [
         { lat: 40.8508423, lng: -73.8621354 },
         { lat: 40.8487647, lng: -73.8617277 },
@@ -7998,8 +7775,7 @@ var boroughedNeighborhoods = {
       ],
       color : "777777"
     },
-    {
-      name : "Pelham Bay",
+    "pelham bay" : {
       coords : [
         { lat: 40.855971000000004, lng: -73.8319659 },
         { lat: 40.8560522, lng: -73.8328242 },
@@ -8023,10 +7799,9 @@ var boroughedNeighborhoods = {
         { lat: 40.8565878, lng: -73.8264728 },
         { lat: 40.855971000000004, lng: -73.8319659 }
       ],
-      color : "3F5BA9"
+      color : "3f5ba9"
     },
-    {
-      name : "Throggs Neck",
+    "throggs neck" : {
       coords : [
         { lat: 40.833619, lng: -73.8389611 },
         { lat: 40.8332862, lng: -73.8391435 },
@@ -8378,10 +8153,9 @@ var boroughedNeighborhoods = {
         { lat: 40.8293328, lng: -73.83782390000002 },
         { lat: 40.833619, lng: -73.8389611 }
       ],
-      color : "C6A4CF"
+      color : "c6a4cf"
     },
-    {
-      name : "Schuylerville",
+    "schuylerville" : {
       coords : [
         { lat: 40.8388303, lng: -73.8255501 },
         { lat: 40.845291100000004, lng: -73.8257647 },
@@ -8410,10 +8184,9 @@ var boroughedNeighborhoods = {
         { lat: 40.8364926, lng: -73.8249063 },
         { lat: 40.8388303, lng: -73.8255501 }
       ],
-      color : "0BA9CC"
+      color : "0ba9cc"
     },
-    {
-      name : "Country Club",
+    "country club" : {
       coords : [
         { lat: 40.8475798, lng: -73.8160443 },
         { lat: 40.84772590000001, lng: -73.8161087 },
@@ -8498,8 +8271,7 @@ var boroughedNeighborhoods = {
       ],
       color : "795046"
     },
-    {
-      name : "Pelham Gardens",
+    "pelham gardens" : {
       coords : [
         { lat: 40.8712738, lng: -73.8499045 },
         { lat: 40.8659515, lng: -73.8500118 },
@@ -8521,10 +8293,9 @@ var boroughedNeighborhoods = {
         { lat: 40.8716632, lng: -73.84859560000001 },
         { lat: 40.8712738, lng: -73.8499045 }
       ],
-      color : "62AF44"
+      color : "62af44"
     },
-    {
-      name : "Bronxdale",
+    "bronxdale" : {
       coords : [
         { lat: 40.857285600000004, lng: -73.8709974 },
         { lat: 40.8567014, lng: -73.8709974 },
@@ -8543,10 +8314,9 @@ var boroughedNeighborhoods = {
         { lat: 40.8612455, lng: -73.8705683 },
         { lat: 40.857285600000004, lng: -73.8709974 }
       ],
-      color : "F8971B"
+      color : "f8971b"
     },
-    {
-      name : "Allerton",
+    "allerton" : {
       coords : [
         { lat: 40.87829930000001, lng: -73.8700962 },
         { lat: 40.87661190000001, lng: -73.8706112 },
@@ -8571,10 +8341,9 @@ var boroughedNeighborhoods = {
         { lat: 40.877488, lng: -73.8668132 },
         { lat: 40.87829930000001, lng: -73.8700962 }
       ],
-      color : "E6EEA3"
+      color : "e6eea3"
     },
-    {
-      name : "Williamsbridge",
+    "williamsbridge" : {
       coords : [
         { lat: 40.8868489, lng: -73.8654184 },
         { lat: 40.8854375, lng: -73.8662553 },
@@ -8591,10 +8360,9 @@ var boroughedNeighborhoods = {
         { lat: 40.881982, lng: -73.8500547 },
         { lat: 40.8868489, lng: -73.8654184 }
       ],
-      color : "EE9C96"
+      color : "ee9c96"
     },
-    {
-      name : "Olinville",
+    "olinville" : {
       coords : [
         { lat: 40.8715334, lng: -73.8706112 },
         { lat: 40.8714848, lng: -73.8671565 },
@@ -8616,10 +8384,9 @@ var boroughedNeighborhoods = {
         { lat: 40.87215, lng: -73.8704181 },
         { lat: 40.8715334, lng: -73.8706112 }
       ],
-      color : "DB4436"
+      color : "db4436"
     },
-    {
-      name : "Baychester",
+    "baychester" : {
       coords : [
         { lat: 40.8644261, lng: -73.8305283 },
         { lat: 40.87005690000001, lng: -73.8334036 },
@@ -8635,10 +8402,9 @@ var boroughedNeighborhoods = {
         { lat: 40.862138, lng: -73.8292193 },
         { lat: 40.8644261, lng: -73.8305283 }
       ],
-      color : "A7B5D7"
+      color : "a7b5d7"
     },
-    {
-      name : "Co-Op",
+    "co-op" : {
       coords : [
         { lat: 40.8800352, lng: -73.8322449 },
         { lat: 40.8789726, lng: -73.8331783 },
@@ -8704,10 +8470,9 @@ var boroughedNeighborhoods = {
         { lat: 40.8790942, lng: -73.83127930000002 },
         { lat: 40.8800352, lng: -73.8322449 }
       ],
-      color : "F8971B"
+      color : "f8971b"
     },
-    {
-      name : "Eastchester",
+    "eastchester" : {
       coords : [
         { lat: 40.88942, lng: -73.8166344 },
         { lat: 40.8910827, lng: -73.823061 },
@@ -8759,8 +8524,7 @@ var boroughedNeighborhoods = {
       ],
       color : "777777"
     },
-    {
-      name : "Edenwald",
+    "edenwald" : {
       coords : [
         { lat: 40.889736299999996, lng: -73.8459134 },
         { lat: 40.8869786, lng: -73.8474154 },
@@ -8785,10 +8549,9 @@ var boroughedNeighborhoods = {
         { lat: 40.889493, lng: -73.8452268 },
         { lat: 40.889736299999996, lng: -73.8459134 }
       ],
-      color : "009D57"
+      color : "009d57"
     },
-    {
-      name : "Wakefield",
+    "wakefield" : {
       coords : [
         { lat: 40.89333739999999, lng: -73.8618779 },
         { lat: 40.8868489, lng: -73.8654184 },
@@ -8881,10 +8644,9 @@ var boroughedNeighborhoods = {
         { lat: 40.8945863, lng: -73.8613629 },
         { lat: 40.89333739999999, lng: -73.8618779 }
       ],
-      color : "3F5BA9"
+      color : "3f5ba9"
     },
-    {
-      name : "Woodlawn",
+    "woodlawn" : {
       coords : [
         { lat: 40.90298789999999, lng: -73.8679504 },
         { lat: 40.9023553, lng: -73.8682294 },
@@ -8906,8 +8668,7 @@ var boroughedNeighborhoods = {
       ],
       color : "795046"
     },
-    {
-      name : "North Brother",
+    "north brother" : {
       coords : [
         { lat: 40.80194490000001, lng: -73.8993108 },
         { lat: 40.80140070000001, lng: -73.8993645 },
@@ -8946,10 +8707,9 @@ var boroughedNeighborhoods = {
         { lat: 40.80216409999999, lng: -73.8986886 },
         { lat: 40.80194490000001, lng: -73.8993108 }
       ],
-      color : "0BA9CC"
+      color : "0ba9cc"
     },
-    {
-      name : "South Brother",
+    "south brother" : {
       coords : [
         { lat: 40.796820000000004, lng: -73.8986456 },
         { lat: 40.7967876, lng: -73.8988602 },
@@ -8977,10 +8737,9 @@ var boroughedNeighborhoods = {
         { lat: 40.7969094, lng: -73.8985169 },
         { lat: 40.796820000000004, lng: -73.8986456 }
       ],
-      color : "0BA9CC"
+      color : "0ba9cc"
     },
-    {
-      name : "Rikers Island",
+    "rikers island" : {
       coords : [
         { lat: 40.795358099999994, lng: -73.8828421 },
         { lat: 40.7960078, lng: -73.8837433 },
@@ -9032,10 +8791,9 @@ var boroughedNeighborhoods = {
         { lat: 40.7950657, lng: -73.8816404 },
         { lat: 40.795358099999994, lng: -73.8828421 }
       ],
-      color : "CCCCCC"
+      color : "cccccc"
     },
-    {
-      name : "City Island",
+    "city island" : {
       coords : [
         { lat: 40.8569367, lng: -73.7918401 },
         { lat: 40.8568637, lng: -73.7917113 },
@@ -9274,10 +9032,9 @@ var boroughedNeighborhoods = {
         { lat: 40.857261300000005, lng: -73.7917328 },
         { lat: 40.8569367, lng: -73.7918401 }
       ],
-      color : "0BA9CC"
+      color : "0ba9cc"
     },
-    {
-      name : "High Island",
+    "high island" : {
       coords : [
         { lat: 40.8588274, lng: -73.7870979 },
         { lat: 40.859168200000006, lng: -73.786701 },
@@ -9308,15 +9065,14 @@ var boroughedNeighborhoods = {
         { lat: 40.8589734, lng: -73.7873876 },
         { lat: 40.8588274, lng: -73.7870979 }
       ],
-      color : "DB4436"
+      color : "db4436"
     }
-  ],
+  },
 
-  // BREAK: STATEN ISLAND
+  // break: staten island
 
-  staten_island : [
-    {
-      name : "St. George",
+  staten_island : {
+    "st. george" : {
       coords : [
         { lat : 40.647336100000004, lng : -74.089458 },
         { lat : 40.6460662, lng : -74.0884495 },
@@ -9377,10 +9133,9 @@ var boroughedNeighborhoods = {
         { lat : 40.64854090000001, lng : -74.0870333 },
         { lat : 40.647336100000004, lng : -74.089458 }
       ],
-      color : "F8971B"
+      color : "f8971b"
     },
-    {
-      name : "New Brighton",
+    "new brighton" : {
       coords : [
         { lat : 40.6455289, lng : -74.09465070000002},
         { lat : 40.6454313, lng : -74.0961313},
@@ -9436,10 +9191,9 @@ var boroughedNeighborhoods = {
         { lat : 40.6465872, lng : -74.0914321},
         { lat : 40.6455289, lng : -74.09465070000002}
       ],
-      color : "62AF44"
+      color : "62af44"
     },
-    {
-      name : "Stapleton",
+    "stapleton" : {
       coords : [
         { lat : 40.634082400000004, lng : -74.0787077},
         { lat : 40.6322585, lng : -74.0793085},
@@ -9470,10 +9224,9 @@ var boroughedNeighborhoods = {
         { lat : 40.63247020000001, lng : -74.073236},
         { lat : 40.634082400000004, lng : -74.0787077}
       ],
-      color : "A61B4A"
+      color : "a61b4a"
     },
-    {
-      name : "Tompkinsville",
+    "tompkinsville" : {
       coords : [
         { lat : 40.63193280000001, lng : -74.0971613},
         { lat : 40.630467200000005, lng : -74.089222},
@@ -9511,8 +9264,7 @@ var boroughedNeighborhoods = {
       ],
       color : "777777"
     },
-    {
-      name : "Randall Manor",
+    "randall manor" : {
       coords : [
         { lat : 40.6455452, lng : -74.1088772},
         { lat : 40.63056490000001, lng : -74.1056585},
@@ -9536,10 +9288,9 @@ var boroughedNeighborhoods = {
         { lat : 40.6456755, lng : -74.1027832},
         { lat : 40.6455452, lng : -74.1088772}
       ],
-      color : "4186F0"
+      color : "4186f0"
     },
-    {
-      name : "Silver Lake",
+    "silver lake" : {
       coords : [
         { lat : 40.6247348, lng : -74.1001654},
         { lat : 40.6244579, lng : -74.1024184},
@@ -9585,10 +9336,9 @@ var boroughedNeighborhoods = {
         { lat : 40.6284153, lng : -74.1008091},
         { lat : 40.6247348, lng : -74.1001654}
       ],
-      color : "7CCFA9"
+      color : "7ccfa9"
     },
-    {
-      name : "West New Brighton",
+    "west new brighton" : {
       coords : [
         { lat : 40.6345383, lng : -74.11720280000002},
         { lat : 40.6289202, lng : -74.1162157},
@@ -9608,10 +9358,9 @@ var boroughedNeighborhoods = {
         { lat : 40.636069, lng : -74.117589},
         { lat : 40.6345383, lng : -74.11720280000002}
       ],
-      color : "CDDC39"
+      color : "cddc39"
     },
-    {
-      name : "Port Richmond",
+    "port richmond" : {
       coords : [
         { lat : 40.6396186, lng : -74.1429734},
         { lat : 40.63554789999999, lng : -74.1447973},
@@ -9667,10 +9416,9 @@ var boroughedNeighborhoods = {
         { lat : 40.63953719999999, lng : -74.1424799},
         { lat : 40.6396186, lng : -74.1429734}
       ],
-      color : "CCCCCC"
+      color : "cccccc"
     },
-    {
-      name : "Elm Park",
+    "elm park" : {
       coords : [
         { lat : 40.635433899999995, lng : -74.1456342},
         { lat : 40.6311512, lng : -74.14692160000001},
@@ -9700,10 +9448,9 @@ var boroughedNeighborhoods = {
         { lat : 40.635710700000004, lng : -74.1449261},
         { lat : 40.635433899999995, lng : -74.1456342}
       ],
-      color : "0BA9CC"
+      color : "0ba9cc"
     },
-    {
-      name : "Mariners Harbor",
+    "mariners harbor" : {
       coords : [
         { lat : 40.64118179999999, lng : -74.1716194},
         { lat : 40.6333659, lng : -74.1713619},
@@ -9751,10 +9498,9 @@ var boroughedNeighborhoods = {
         { lat : 40.6418005, lng : -74.1715336},
         { lat : 40.64118179999999, lng : -74.1716194}
       ],
-      color : "DB4436"
+      color : "db4436"
     },
-    {
-      name : "Shooters Island",
+    "shooters island" : {
       coords : [
         { lat : 40.6442753, lng : -74.1614485},
         { lat : 40.6440799, lng : -74.161706},
@@ -9774,8 +9520,7 @@ var boroughedNeighborhoods = {
       ],
       color : "000000"
     },
-    {
-      name : "Arlington",
+    "arlington" : {
       coords : [
         { lat : 40.6377787, lng : -74.171555},
         { lat : 40.6333659, lng : -74.1713619},
@@ -9795,10 +9540,9 @@ var boroughedNeighborhoods = {
         { lat : 40.64118179999999, lng : -74.1716194},
         { lat : 40.6377787, lng : -74.171555}
       ],
-      color : "9FC3FF"
+      color : "9fc3ff"
     },
-    {
-      name : "Port Ivory",
+    "port ivory" : {
       coords : [
         { lat : 40.637567, lng : -74.1937852},
         { lat : 40.637420500000005, lng : -74.1936564},
@@ -9866,10 +9610,9 @@ var boroughedNeighborhoods = {
         { lat : 40.6435915, lng : -74.1863179},
         { lat : 40.637567, lng : -74.1937852}
       ],
-      color : "62AF44"
+      color : "62af44"
     },
-    {
-      name : "Old Place",
+    "old place" : {
       coords : [
         { lat : 40.6261679, lng : -74.1791511},
         { lat : 40.623155, lng : -74.17586800000001},
@@ -9888,8 +9631,7 @@ var boroughedNeighborhoods = {
       ],
       color : "777777"
     },
-    {
-      name : "Graniteville",
+    "graniteville" : {
       coords : [
         { lat : 40.612225800000004, lng : -74.1538095},
         { lat : 40.6158745, lng : -74.1528225},
@@ -9906,8 +9648,7 @@ var boroughedNeighborhoods = {
       ],
       color : "795046"
     },
-    {
-      name : "Westerleigh",
+    "westerleigh" : {
       coords : [
         { lat : 40.6094892, lng : -74.150033},
         { lat : 40.612258399999995, lng : -74.1361284},
@@ -9934,10 +9675,9 @@ var boroughedNeighborhoods = {
         { lat : 40.612225800000004, lng : -74.1538095},
         { lat : 40.6094892, lng : -74.150033}
       ],
-      color : "9FC3FF"
+      color : "9fc3ff"
     },
-    {
-      name : "Bloomfield",
+    "bloomfield" : {
       coords : [
         { lat : 40.6311512, lng : -74.2005873},
         { lat : 40.629197, lng : -74.2010593},
@@ -9993,10 +9733,9 @@ var boroughedNeighborhoods = {
         { lat : 40.632747099999996, lng : -74.1986132},
         { lat : 40.6311512, lng : -74.2005873}
       ],
-      color : "3F5BA9"
+      color : "3f5ba9"
     },
-    {
-      name : "Bulls Head",
+    "bulls head" : {
       coords : [
         { lat : 40.60206060000001, lng : -74.1671991},
         { lat : 40.596684100000004, lng : -74.1683149},
@@ -10034,10 +9773,9 @@ var boroughedNeighborhoods = {
         { lat : 40.6024841, lng : -74.1714478},
         { lat : 40.60206060000001, lng : -74.1671991}
       ],
-      color : "F8971B"
+      color : "f8971b"
     },
-    {
-      name : "Prall's Island",
+    "prall's island" : {
       coords : [
         { lat : 40.614278199999994, lng : -74.2017889},
         { lat : 40.613757, lng : -74.2020464},
@@ -10072,10 +9810,9 @@ var boroughedNeighborhoods = {
         { lat : 40.613757, lng : -74.2005873},
         { lat : 40.614278199999994, lng : -74.2017889}
       ],
-      color : "F4B400"
+      color : "f4b400"
     },
-    {
-      name : "Meiers Corner",
+    "meiers corner" : {
       coords : [
         { lat : 40.6106783, lng : -74.1265798},
         { lat : 40.6127471, lng : -74.12683730000002},
@@ -10092,8 +9829,7 @@ var boroughedNeighborhoods = {
       ],
       color : "795046"
     },
-    {
-      name : "Castleton Corners",
+    "castleton corners" : {
       coords : [
         { lat : 40.6163631, lng : -74.1035128},
         { lat : 40.61859460000001, lng : -74.1054869},
@@ -10131,8 +9867,7 @@ var boroughedNeighborhoods = {
       ],
       color : "777777"
     },
-    {
-      name : "Clifton",
+    "clifton" : {
       coords : [
         { lat : 40.6147017, lng : -74.0772057},
         { lat : 40.6145714, lng : -74.0762186},
@@ -10155,10 +9890,9 @@ var boroughedNeighborhoods = {
         { lat : 40.617796500000004, lng : -74.0811539},
         { lat : 40.6147017, lng : -74.0772057}
       ],
-      color : "3F5BA9"
+      color : "3f5ba9"
     },
-    {
-      name : "Rosebank",
+    "rosebank" : {
       coords : [
         { lat : 40.6214123, lng : -74.0700817 },
         { lat : 40.6226827, lng : -74.0708113 },
@@ -10181,10 +9915,9 @@ var boroughedNeighborhoods = {
         { lat : 40.620825999999994, lng : -74.0691376 },
         { lat : 40.6214123, lng : -74.0700817 }
       ],
-      color : "CDDC39"
+      color : "cddc39"
     },
-    {
-      name : "Grymes Hill",
+    "grymes hill" : {
       coords : [
         { lat : 40.6104991, lng : -74.0978479 },
         { lat : 40.6105317, lng : -74.0950584 },
@@ -10217,10 +9950,9 @@ var boroughedNeighborhoods = {
         { lat : 40.61297509999999, lng : -74.0997791 },
         { lat : 40.6104991, lng : -74.0978479 }
       ],
-      color : "B29189"
+      color : "b29189"
     },
-    {
-      name : "Sunnyside",
+    "sunnyside" : {
       coords : [
         { lat : 40.6103037, lng : -74.1088343 },
         { lat : 40.61027109999999, lng : -74.1063023 },
@@ -10248,10 +9980,9 @@ var boroughedNeighborhoods = {
         { lat : 40.6104014, lng : -74.1108084 },
         { lat : 40.6103037, lng : -74.1088343 }
       ],
-      color : "DB4436"
+      color : "db4436"
     },
-    {
-      name : "Park Hill",
+    "park hill" : {
       coords : [
         { lat : 40.6070131, lng : -74.0851879 },
         { lat : 40.6064918, lng : -74.0832353 },
@@ -10266,10 +9997,9 @@ var boroughedNeighborhoods = {
         { lat : 40.607681, lng : -74.0870976 },
         { lat : 40.6070131, lng : -74.0851879 }
       ],
-      color : "009D57"
+      color : "009d57"
     },
-    {
-      name : "Shore Acres",
+    "shore acres" : {
       coords : [
         { lat : 40.6136511, lng : -74.0610695 },
         { lat : 40.6145388, lng : -74.0616059 },
@@ -10297,10 +10027,9 @@ var boroughedNeighborhoods = {
         { lat : 40.61304839999999, lng : -74.0608013 },
         { lat : 40.6136511, lng : -74.0610695 }
       ],
-      color : "B29189"
+      color : "b29189"
     },
-    {
-      name : "Arrochar",
+    "arrochar" : {
       coords : [
         { lat : 40.59551100000001, lng : -74.0838575 },
         { lat : 40.5902317, lng : -74.080596 },
@@ -10330,10 +10059,9 @@ var boroughedNeighborhoods = {
         { lat : 40.5958694, lng : -74.08583160000002 },
         { lat : 40.59551100000001, lng : -74.0838575 }
       ],
-      color : "F4B400"
+      color : "f4b400"
     },
-    {
-      name : "South Beach",
+    "south beach" : {
       coords : [
         { lat : 40.5943053, lng : -74.05931 },
         { lat : 40.596390799999995, lng : -74.0617561 },
@@ -10357,10 +10085,9 @@ var boroughedNeighborhoods = {
         { lat : 40.5920567, lng : -74.0622282 },
         { lat : 40.5943053, lng : -74.05931 }
       ],
-      color : "4186F0"
+      color : "4186f0"
     },
-    {
-      name : "Dongan Hills",
+    "dongan hills" : {
       coords : [
         { lat : 40.5865654, lng : -74.0920973 },
         { lat : 40.584723999999994, lng : -74.0884924 },
@@ -10380,10 +10107,9 @@ var boroughedNeighborhoods = {
         { lat : 40.5909161, lng : -74.100852 },
         { lat : 40.5865654, lng : -74.0920973 }
       ],
-      color : "A61B4A"
+      color : "a61b4a"
     },
-    {
-      name : "Concord",
+    "concord" : {
       coords : [
         { lat : 40.597792, lng : -74.0718412 },
         { lat : 40.6012786, lng : -74.0615845 },
@@ -10420,8 +10146,7 @@ var boroughedNeighborhoods = {
       ],
       color : "777777"
     },
-    {
-      name : "Grasmere",
+    "grasmere" : {
       coords : [
         { lat : 40.6019302, lng : -74.0822268 },
         { lat : 40.60362450000001, lng : -74.0835571 },
@@ -10444,10 +10169,9 @@ var boroughedNeighborhoods = {
         { lat : 40.6007572, lng : -74.0812397 },
         { lat : 40.6019302, lng : -74.0822268 }
       ],
-      color : "93D7E8"
+      color : "93d7e8"
     },
-    {
-      name : "Old Town",
+    "old town" : {
       coords : [
         { lat : 40.60088760000001, lng : -74.08971550000001 },
         { lat : 40.5993561, lng : -74.0916681 },
@@ -10469,8 +10193,7 @@ var boroughedNeighborhoods = {
       ],
       color : "000000"
     },
-    {
-      name : "Todt Hill",
+    "todt hill" : {
       coords : [
         { lat : 40.60978240000001, lng : -74.1214085 },
         { lat : 40.60877240000001, lng : -74.1211939 },
@@ -10553,10 +10276,9 @@ var boroughedNeighborhoods = {
         { lat : 40.6110856, lng : -74.1167736 },
         { lat : 40.60978240000001, lng : -74.1214085 }
       ],
-      color : "4186F0"
+      color : "4186f0"
     },
-    {
-      name : "Manor Heights",
+    "manor heights" : {
       coords : [
         { lat : 40.59876959999999, lng : -74.1309357 },
         { lat : 40.5981179, lng : -74.1250992 },
@@ -10579,10 +10301,9 @@ var boroughedNeighborhoods = {
         { lat : 40.6081534, lng : -74.1321373 },
         { lat : 40.59876959999999, lng : -74.1309357 }
       ],
-      color : "009D57"
+      color : "009d57"
     },
-    {
-      name : "Willowbrook",
+    "willowbrook" : {
       coords : [
         { lat : 40.6056121, lng : -74.1543245 },
         { lat : 40.60388519999999, lng : -74.1542387 },
@@ -10613,10 +10334,9 @@ var boroughedNeighborhoods = {
         { lat : 40.60730629999999, lng : -74.1533804 },
         { lat : 40.6056121, lng : -74.1543245 }
       ],
-      color : "D698AD"
+      color : "d698ad"
     },
-    {
-      name : "New Springville",
+    "new springville" : {
       coords : [
         { lat : 40.5889607, lng : -74.1675854 },
         { lat : 40.584789099999995, lng : -74.1604185 },
@@ -10640,10 +10360,9 @@ var boroughedNeighborhoods = {
         { lat : 40.5907206, lng : -74.1662979 },
         { lat : 40.5889607, lng : -74.1675854 }
       ],
-      color : "CCCCCC"
+      color : "cccccc"
     },
-    {
-      name : "Heartland Village",
+    "heartland village" : {
       coords : [
         { lat : 40.5860928, lng : -74.1686583 },
         { lat : 40.5794439, lng : -74.1694736 },
@@ -10653,10 +10372,9 @@ var boroughedNeighborhoods = {
         { lat : 40.5889607, lng : -74.1675854 },
         { lat : 40.5860928, lng : -74.1686583 }
       ],
-      color : "0BA9CC"
+      color : "0ba9cc"
     },
-    {
-      name : "Travis-Chelsea",
+    "travis-chelsea" : {
       coords : [
         { lat : 40.5986066, lng : -74.1969824 },
         { lat : 40.5967818, lng : -74.1978407 },
@@ -10723,10 +10441,9 @@ var boroughedNeighborhoods = {
         { lat : 40.600138099999995, lng : -74.1971111 },
         { lat : 40.5986066, lng : -74.1969824 }
       ],
-      color : "EE9C96"
+      color : "ee9c96"
     },
-    {
-      name : "Midland Beach",
+    "midland beach" : {
       coords : [
         { lat : 40.5746197, lng : -74.1056157 },
         { lat : 40.5669916, lng : -74.0906811 },
@@ -10748,8 +10465,7 @@ var boroughedNeighborhoods = {
       ],
       color : "795046"
     },
-    {
-      name : "Grant City",
+    "grant city" : {
       coords : [
         { lat : 40.5792809, lng : -74.1147995 },
         { lat : 40.5743915, lng : -74.1058302 },
@@ -10765,10 +10481,9 @@ var boroughedNeighborhoods = {
         { lat : 40.5800958, lng : -74.1139841 },
         { lat : 40.5792809, lng : -74.1147995 }
       ],
-      color : "62AF44"
+      color : "62af44"
     },
-    {
-      name : "New Dorp",
+    "new dorp" : {
       coords : [
         { lat : 40.5763147, lng : -74.1270304 },
         { lat : 40.5759073, lng : -74.1254854 },
@@ -10813,10 +10528,9 @@ var boroughedNeighborhoods = {
         { lat : 40.5774882, lng : -74.1272664 },
         { lat : 40.5763147, lng : -74.1270304 }
       ],
-      color : "F8971B"
+      color : "f8971b"
     },
-    {
-      name : "Lighthouse Hill",
+    "lighthouse hill" : {
       coords : [
         { lat : 40.5789224, lng : -74.1364288 },
         { lat : 40.57859640000001, lng : -74.1369867 },
@@ -10842,8 +10556,7 @@ var boroughedNeighborhoods = {
       ],
       color : "777777"
     },
-    {
-      name : "Oakwood",
+    "oakwood" : {
       coords : [
         { lat : 40.5654268, lng : -74.1259575 },
         { lat : 40.5620036, lng : -74.1300774 },
@@ -10879,10 +10592,9 @@ var boroughedNeighborhoods = {
         { lat : 40.56810010000001, lng : -74.1233182 },
         { lat : 40.5654268, lng : -74.1259575 }
       ],
-      color : "009D57"
+      color : "009d57"
     },
-    {
-      name : "Richmondtown",
+    "richmondtown" : {
       coords : [
         { lat : 40.5697626, lng : -74.1443682 },
         { lat : 40.5652964, lng : -74.1347122 },
@@ -10904,10 +10616,9 @@ var boroughedNeighborhoods = {
         { lat : 40.5704798, lng : -74.143939 },
         { lat : 40.5697626, lng : -74.1443682 }
       ],
-      color : "3F5BA9"
+      color : "3f5ba9"
     },
-    {
-      name : "Bay Terrace",
+    "bay terrace" : {
       coords : [
         { lat : 40.56487260000001, lng : -74.1481447 },
         { lat : 40.55955829999999, lng : -74.1421795 },
@@ -10937,10 +10648,9 @@ var boroughedNeighborhoods = {
         { lat : 40.5657202, lng : -74.1463852 },
         { lat : 40.56487260000001, lng : -74.1481447 }
       ],
-      color : "C6A4CF"
+      color : "c6a4cf"
     },
-    {
-      name : "Great Kills",
+    "great kills" : {
       coords : [
         { lat : 40.5677741, lng : -74.1518784 },
         { lat : 40.56549199999999, lng : -74.1547108 },
@@ -10984,10 +10694,9 @@ var boroughedNeighborhoods = {
         { lat : 40.566698200000005, lng : -74.1503334 },
         { lat : 40.5677741, lng : -74.1518784 }
       ],
-      color : "9FC3FF"
+      color : "9fc3ff"
     },
-    {
-      name : "Eltingville",
+    "eltingville" : {
       coords : [
         { lat : 40.561090699999994, lng : -74.1697741 },
         { lat : 40.560243, lng : -74.1697311 },
@@ -11014,8 +10723,7 @@ var boroughedNeighborhoods = {
       ],
       color : "777777"
     },
-    {
-      name : "Arden Heights",
+    "arden heights" : {
       coords : [
         { lat : 40.5572434, lng : -74.2049646 },
         { lat : 40.5562652, lng : -74.20346260000001 },
@@ -11042,10 +10750,9 @@ var boroughedNeighborhoods = {
         { lat : 40.5586128, lng : -74.2018747 },
         { lat : 40.5572434, lng : -74.2049646 }
       ],
-      color : "7C3592"
+      color : "7c3592"
     },
-    {
-      name : "Annadale",
+    "annadale" : {
       coords : [
         { lat : 40.519280200000004, lng : -74.1776276 },
         { lat : 40.5214007, lng : -74.1753531 },
@@ -11081,10 +10788,9 @@ var boroughedNeighborhoods = {
         { lat : 40.51986740000001, lng : -74.1782284 },
         { lat : 40.519280200000004, lng : -74.1776276 }
       ],
-      color : "E6EEA3"
+      color : "e6eea3"
     },
-    {
-      name : "Huguenot",
+    "huguenot" : {
       coords : [
         { lat : 40.5340245, lng : -74.1862106 },
         { lat : 40.5378079, lng : -74.1886568 },
@@ -11097,10 +10803,9 @@ var boroughedNeighborhoods = {
         { lat : 40.5331112, lng : -74.1896009 },
         { lat : 40.5340245, lng : -74.1862106 }
       ],
-      color : "DB4436"
+      color : "db4436"
     },
-    {
-      name : "Prince's Bay",
+    "prince's bay" : {
       coords : [
         { lat : 40.520193600000006, lng : -74.1828632 },
         { lat : 40.5207808, lng : -74.1811466 },
@@ -11145,10 +10850,9 @@ var boroughedNeighborhoods = {
         { lat : 40.51950850000001, lng : -74.1848373 },
         { lat : 40.520193600000006, lng : -74.1828632 }
       ],
-      color : "0BA9CC"
+      color : "0ba9cc"
     },
-    {
-      name : "Woodrow",
+    "woodrow" : {
       coords : [
         { lat : 40.52828370000001, lng : -74.2167664 },
         { lat : 40.5264244, lng : -74.2157792 },
@@ -11177,10 +10881,9 @@ var boroughedNeighborhoods = {
         { lat : 40.5325241, lng : -74.2181826 },
         { lat : 40.52828370000001, lng : -74.2167664 }
       ],
-      color : "62AF44"
+      color : "62af44"
     },
-    {
-      name : "Rossville",
+    "rossville" : {
       coords : [
         { lat : 40.553135000000005, lng : -74.2177963 },
         { lat : 40.5525481, lng : -74.2186975 },
@@ -11208,10 +10911,9 @@ var boroughedNeighborhoods = {
         { lat : 40.553950199999996, lng : -74.217968 },
         { lat : 40.553135000000005, lng : -74.2177963 }
       ],
-      color : "F8971B"
+      color : "f8971b"
     },
-    {
-      name : "Pleasant Plains",
+    "pleasant plains" : {
       coords : [
         { lat : 40.5266527, lng : -74.2234612 },
         { lat : 40.52609820000001, lng : -74.2259073 },
@@ -11234,10 +10936,9 @@ var boroughedNeighborhoods = {
         { lat : 40.52828370000001, lng : -74.2167664 },
         { lat : 40.5266527, lng : -74.2234612 }
       ],
-      color : "EE9C96"
+      color : "ee9c96"
     },
-    {
-      name : "Richmond Valley",
+    "richmond valley" : {
       coords : [
         { lat : 40.5249891, lng : -74.2438889 },
         { lat : 40.5245324, lng : -74.2432022 },
@@ -11270,10 +10971,9 @@ var boroughedNeighborhoods = {
         { lat : 40.5259351, lng : -74.2278814 },
         { lat : 40.5249891, lng : -74.2438889 }
       ],
-      color : "7CCFA9"
+      color : "7ccfa9"
     },
-    {
-      name : "Tottenville",
+    "tottenville" : {
       coords : [
         { lat : 40.5166702, lng : -74.2465925 },
         { lat : 40.5162461, lng : -74.2460775 },
@@ -11339,10 +11039,9 @@ var boroughedNeighborhoods = {
         { lat : 40.517453200000006, lng : -74.2450905 },
         { lat : 40.5166702, lng : -74.2465925 }
       ],
-      color : "3F5BA9"
+      color : "3f5ba9"
     },
-    {
-      name : "Charleston",
+    "charleston" : {
       coords : [
         { lat : 40.543254299999994, lng : -74.2478371 },
         { lat : 40.5422759, lng : -74.2463779 },
@@ -11439,10 +11138,9 @@ var boroughedNeighborhoods = {
         { lat : 40.545537100000004, lng : -74.2462063 },
         { lat : 40.543254299999994, lng : -74.2478371 }
       ],
-      color : "CCCCCC"
+      color : "cccccc"
     },
-    {
-      name : "Hoffman Island",
+    "hoffman island" : {
       coords : [
         { lat : 40.5778141, lng : -74.0548897 },
         { lat : 40.5771296, lng : -74.0540314 },
@@ -11453,10 +11151,9 @@ var boroughedNeighborhoods = {
         { lat : 40.5796068, lng : -74.0546751 },
         { lat : 40.5778141, lng : -74.0548897 }
       ],
-      color : "62AF44"
+      color : "62af44"
     },
-    {
-      name : "Swinburn Island",
+    "swinburn island" : {
       coords : [
         { lat : 40.5667634, lng : -74.0509844 },
         { lat : 40.56663300000001, lng : -74.0510917 },
@@ -11469,8 +11166,8 @@ var boroughedNeighborhoods = {
         { lat : 40.5664374, lng : -74.0505552 },
         { lat : 40.5667634, lng : -74.0509844 }
       ],
-      color : "DB4436"
+      color : "db4436"
     }
-  ]
+  }
 
 };
