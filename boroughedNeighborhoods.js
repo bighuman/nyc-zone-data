@@ -855,7 +855,7 @@ var boroughedNeighborhoods = {
       ],
       color : "ffff33"
     },
-    "manhatanville" : {
+    "manhattanville" : {
       coords : [
          { lat : 40.821498, lng : -73.958643 },
          { lat : 40.81874599999999, lng : -73.9609119 },

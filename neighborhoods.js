@@ -892,7 +892,7 @@ var neighborhoods = [
     center : { lat : 40.81578605, lng : -73.94735449999996 }
   },
   {
-    name : "Manhatanville",
+    name : "Manhattanville",
     borough : "Manhattan",
     coords : [
       { lat : 40.821498, lng : -73.958643 },
